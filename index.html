@@ -4,7 +4,6 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Células Madre AFA | Natural Latin Life</title>
-    <!-- Fuentes sobrias: Plus Jakarta Sans para titulares y cuerpo -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
@@ -30,6 +29,10 @@
                             muted: '#64748b',
                             light: '#f8fafc',
                             border: '#e2e8f0',
+                        },
+                        whatsapp: {
+                            DEFAULT: '#25D366',
+                            hover: '#20bd5a'
                         }
                     }
                 }
@@ -37,14 +40,14 @@
         }
     </script>
 </head>
-<body class="bg-[#ffffff] text-neutral-base font-sans antialiased selection:bg-clinical-100 selection:text-clinical-900">
+<body class="bg-[#ffffff] text-neutral-base font-sans antialiased selection:bg-clinical-100 selection:text-clinical-900 relative">
 
-    <!-- Anuncio superior fino -->
+    <!-- Anuncio superior -->
     <aside class="bg-clinical-900 text-white text-xs py-2.5 px-4 text-center tracking-wide font-medium">
         Fórmula basada en extracto natural de AFA • Envíos seguros a todo el país
     </aside>
 
-    <!-- Barra de navegación minimalista -->
+    <!-- Barra de navegación -->
     <header class="sticky top-0 z-50 bg-white/90 backdrop-blur-md border-b border-neutral-border">
         <div class="max-w-6xl mx-auto px-6 h-20 flex items-center justify-between">
             <div class="flex items-center gap-3">
@@ -64,12 +67,11 @@
         </div>
     </header>
 
-    <!-- Sección: Presentación de la Empresa (Empatía y Bienestar) -->
+    <!-- Sección: Presentación de la Empresa -->
     <section id="nosotros" class="bg-clinical-50/30 pt-16 pb-20 md:pt-24 md:pb-28 border-b border-neutral-border">
         <div class="max-w-6xl mx-auto px-6">
             <div class="grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-20 items-center">
                 
-                <!-- Contenido de la empresa -->
                 <div class="order-2 lg:order-1">
                     <span class="text-clinical-700 text-xs font-bold uppercase tracking-wider mb-4 block">Sobre Natural Latin Life</span>
                     <h1 class="text-4xl md:text-5xl font-extrabold tracking-tight text-neutral-base leading-tight mb-6">
@@ -113,7 +115,6 @@
                     </div>
                 </div>
 
-                <!-- Imagen de Bienestar Adultos -->
                 <div class="order-1 lg:order-2">
                     <div class="relative rounded-3xl overflow-hidden shadow-2xl shadow-neutral-200 aspect-[4/3] lg:aspect-auto lg:h-[600px]">
                         <img src="pexels-kampus-8637983.jpg" alt="Adultos mayores activos y felices en la playa" class="w-full h-full object-cover">
@@ -128,7 +129,7 @@
         </div>
     </section>
 
-    <!-- Sección del Producto (Estilo clínico editorial) -->
+    <!-- Sección del Producto -->
     <section id="producto" class="max-w-6xl mx-auto px-6 py-20 md:py-24">
         <div class="grid grid-cols-1 lg:grid-cols-12 gap-12 lg:gap-16 items-center">
             
@@ -145,7 +146,6 @@
                     Tratamiento formulado con <strong class="text-neutral-base font-semibold">Aphanizomenon Flos-Aquae (AFA)</strong> pura. Actúa sobre la médula ósea promoviendo la migración celular hacia tejidos lesionados o con desgaste crónico.
                 </p>
 
-                <!-- Puntos clave rápidos -->
                 <ul class="space-y-3 mb-10 text-sm text-neutral-base font-medium">
                     <li class="flex items-center gap-3">
                         <span class="w-1.5 h-1.5 rounded-full bg-clinical-700"></span>
@@ -171,7 +171,6 @@
                 </div>
             </div>
 
-            <!-- Columna del producto -->
             <div class="lg:col-span-5">
                 <div class="relative bg-clinical-50/70 border border-clinical-200/60 rounded-3xl p-8 sm:p-12 flex items-center justify-center">
                     <img src="producto.jpg" alt="Suplemento Células Madre AFA 60 Cápsulas" class="w-full max-w-[280px] h-auto object-contain drop-shadow-xl hover:scale-102 transition-transform duration-300">
@@ -185,30 +184,8 @@
         </div>
     </section>
 
-    <!-- Indicadores de confianza -->
-    <section class="border-y border-neutral-border bg-neutral-light/50 py-10">
-        <div class="max-w-6xl mx-auto px-6 grid grid-cols-2 md:grid-cols-4 gap-8 text-center">
-            <div>
-                <p class="text-2xl font-bold text-neutral-base mb-1">AFA Pura</p>
-                <p class="text-xs text-neutral-muted">Microalga de agua dulce</p>
-            </div>
-            <div>
-                <p class="text-2xl font-bold text-neutral-base mb-1">250 mg</p>
-                <p class="text-xs text-neutral-muted">Concentración activa por cápsula</p>
-            </div>
-            <div>
-                <p class="text-2xl font-bold text-neutral-base mb-1">Pluripotente</p>
-                <p class="text-xs text-neutral-muted">Regeneración multi-tejido</p>
-            </div>
-            <div>
-                <p class="text-2xl font-bold text-neutral-base mb-1">100%</p>
-                <p class="text-xs text-neutral-muted">Composición natural</p>
-            </div>
-        </div>
-    </section>
-
     <!-- Mecanismo de Acción -->
-    <section id="mecanismo" class="max-w-6xl mx-auto px-6 py-24 border-b border-neutral-border">
+    <section id="mecanismo" class="max-w-6xl mx-auto px-6 py-24 border-y border-neutral-border">
         <div class="max-w-2xl mb-16">
             <span class="text-clinical-700 text-xs font-bold uppercase tracking-wider">Base Científica</span>
             <h2 class="text-3xl font-bold tracking-tight text-neutral-base mt-2 mb-4">¿Cómo actúa la microalga AFA en el organismo?</h2>
@@ -244,7 +221,7 @@
         </div>
     </section>
 
-    <!-- NUEVA SECCIÓN DETALLADA: Condiciones que tratamos (Sustituye a Aplicaciones Clínicas) -->
+    <!-- Condiciones que tratamos -->
     <section id="beneficios" class="bg-clinical-50/40 border-b border-neutral-border py-24">
         <div class="max-w-6xl mx-auto px-6">
             
@@ -252,58 +229,52 @@
                 <span class="text-clinical-700 text-xs font-bold uppercase tracking-wider block mb-3">Tratamiento Integral Regenerativo</span>
                 <h2 class="text-3xl font-bold tracking-tight text-neutral-base mb-6">Condiciones que tratamos</h2>
                 <p class="text-neutral-muted text-lg leading-relaxed">
-                    Después de una hora de tomar el AFA, la médula ósea empieza a liberar las células madres al torrente sanguíneo[cite: 19]. Estas viajan al tejido dañado regenerándolo y apoyando el tratamiento de la enfermedad[cite: 19]. Está indicado para prácticamente cualquier dolencia conocida, especialmente para los casos de:
+                    Después de una hora de tomar el AFA, la médula ósea empieza a liberar las células madres al torrente sanguíneo. Estas viajan al tejido dañado regenerándolo y apoyando el tratamiento de la enfermedad. Está indicado para prácticamente cualquier dolencia conocida, especialmente para los casos de:
                 </p>
             </div>
 
-            <!-- Grid de Patologías Agrupadas Profesionalmente -->
             <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
                 
-                <!-- Neurológico -->
                 <div class="bg-white p-8 rounded-2xl border border-neutral-border shadow-sm hover:border-clinical-200 transition-colors">
                     <div class="w-10 h-10 bg-clinical-100 rounded-lg flex items-center justify-center text-xl mb-4">🧠</div>
                     <h3 class="text-lg font-bold text-neutral-base mb-3">Sistema Neurológico</h3>
                     <ul class="text-sm text-neutral-muted space-y-2">
                         <li>• Tratamiento de Neuropatía</li>
                         <li>• Problemas neurológicos generales</li>
-                        <li>• Alzheimer y Parkinson[cite: 19]</li>
+                        <li>• Alzheimer y Parkinson</li>
                     </ul>
                 </div>
 
-                <!-- Metabólico -->
                 <div class="bg-white p-8 rounded-2xl border border-neutral-border shadow-sm hover:border-clinical-200 transition-colors">
                     <div class="w-10 h-10 bg-clinical-100 rounded-lg flex items-center justify-center text-xl mb-4">🩸</div>
                     <h3 class="text-lg font-bold text-neutral-base mb-3">Salud Metabólica</h3>
                     <ul class="text-sm text-neutral-muted space-y-2">
-                        <li>• Control de Diabetes[cite: 19]</li>
+                        <li>• Control de Diabetes</li>
                         <li>• Gestión de Sobrepeso</li>
-                        <li>• Falta de energía y fatiga crónica[cite: 19]</li>
+                        <li>• Falta de energía y fatiga crónica</li>
                     </ul>
                 </div>
 
-                <!-- Articular -->
                 <div class="bg-white p-8 rounded-2xl border border-neutral-border shadow-sm hover:border-clinical-200 transition-colors">
                     <div class="w-10 h-10 bg-clinical-100 rounded-lg flex items-center justify-center text-xl mb-4">🦴</div>
                     <h3 class="text-lg font-bold text-neutral-base mb-3">Articulaciones y Huesos</h3>
                     <ul class="text-sm text-neutral-muted space-y-2">
-                        <li>• Artritis y Reumatismo[cite: 19]</li>
-                        <li>• Osteoporosis[cite: 19]</li>
-                        <li>• Dolores musculares y articulares[cite: 19]</li>
+                        <li>• Artritis y Reumatismo</li>
+                        <li>• Osteoporosis</li>
+                        <li>• Dolores musculares y articulares</li>
                     </ul>
                 </div>
 
-                <!-- Cardiovascular -->
                 <div class="bg-white p-8 rounded-2xl border border-neutral-border shadow-sm hover:border-clinical-200 transition-colors">
                     <div class="w-10 h-10 bg-clinical-100 rounded-lg flex items-center justify-center text-xl mb-4">🫀</div>
                     <h3 class="text-lg font-bold text-neutral-base mb-3">Sistema Cardiovascular</h3>
                     <ul class="text-sm text-neutral-muted space-y-2">
-                        <li>• Mala Circulación y Várices[cite: 19]</li>
-                        <li>• Hipertensión arterial[cite: 19]</li>
-                        <li>• Problemas cardiacos[cite: 19]</li>
+                        <li>• Mala Circulación y Várices</li>
+                        <li>• Hipertensión arterial</li>
+                        <li>• Problemas cardiacos</li>
                     </ul>
                 </div>
 
-                <!-- Gástrico y Ocular -->
                 <div class="bg-white p-8 rounded-2xl border border-neutral-border shadow-sm hover:border-clinical-200 transition-colors">
                     <div class="w-10 h-10 bg-clinical-100 rounded-lg flex items-center justify-center text-xl mb-4">👁️</div>
                     <h3 class="text-lg font-bold text-neutral-base mb-3">Soporte Sensorial y Digestivo</h3>
@@ -313,13 +284,12 @@
                     </ul>
                 </div>
 
-                <!-- Piel y Otros -->
                 <div class="bg-white p-8 rounded-2xl border border-neutral-border shadow-sm hover:border-clinical-200 transition-colors">
                     <div class="w-10 h-10 bg-clinical-100 rounded-lg flex items-center justify-center text-xl mb-4">✨</div>
                     <h3 class="text-lg font-bold text-neutral-base mb-3">Tejidos y Piel</h3>
                     <ul class="text-sm text-neutral-muted space-y-2">
-                        <li>• Manchas y Cicatrices[cite: 19]</li>
-                        <li>• Riesgo de Cáncer (Prevención celular)[cite: 19]</li>
+                        <li>• Manchas y Cicatrices</li>
+                        <li>• Riesgo de Cáncer (Prevención celular)</li>
                     </ul>
                 </div>
 
@@ -342,7 +312,7 @@
                     <div class="space-y-4 text-sm text-neutral-muted">
                         <div>
                             <span class="block font-semibold text-neutral-base">Dosis Diaria</span>
-                            2 cápsulas al día con abundante agua[cite: 19].
+                            2 cápsulas al día con abundante agua.
                         </div>
                         <div>
                             <span class="block font-semibold text-neutral-base">Momento sugerido</span>
@@ -350,7 +320,7 @@
                         </div>
                         <div>
                             <span class="block font-semibold text-neutral-base">Tolerancia</span>
-                            100% natural[cite: 19]. Sin efectos secundarios descritos[cite: 19].
+                            100% natural. Sin efectos secundarios descritos.
                         </div>
                     </div>
                 </div>
@@ -359,8 +329,8 @@
                     <h3 class="text-base font-bold text-neutral-base mb-4">Ingredientes Activos</h3>
                     <div class="space-y-4 text-sm text-neutral-muted">
                         <div class="flex justify-between border-b border-neutral-border/60 pb-2">
-                            <span class="text-neutral-base font-medium">AFA (Aphanizomenon flos-aquae)[cite: 19]</span>
-                            <span class="font-semibold text-neutral-base">250 mg[cite: 19]</span>
+                            <span class="text-neutral-base font-medium">AFA (Aphanizomenon flos-aquae)</span>
+                            <span class="font-semibold text-neutral-base">250 mg</span>
                         </div>
                         <div class="flex justify-between border-b border-neutral-border/60 pb-2">
                             <span>Vitamina B & K naturales</span>
@@ -379,9 +349,69 @@
 
             </div>
         </div>
+    </section>
 
-        <!-- Banner de Conversión Final -->
-        <div class="mt-12 bg-clinical-900 rounded-3xl p-8 sm:p-12 text-center text-white">
+    <!-- NUEVA SECCIÓN: Logística y Garantías -->
+    <section class="bg-white py-20 border-t border-neutral-border">
+        <div class="max-w-6xl mx-auto px-6">
+            <div class="text-center mb-16">
+                <h2 class="text-3xl font-bold tracking-tight text-neutral-base">¿Por qué elegirnos?</h2>
+            </div>
+            
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-10 text-center">
+                
+                <!-- Envío Gratuito -->
+                <div class="flex flex-col items-center">
+                    <div class="w-16 h-16 text-clinical-800 mb-5">
+                        <svg fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M20 7l-8-4-8 4m16 0l-8 4m8-4v10l-8 4m0-10L4 7m8 4v10M4 7v10l8 4"></path>
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M12 22a9 9 0 110-18 9 9 0 010 18z"></path>
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M9 12l2 2 4-4"></path>
+                        </svg>
+                    </div>
+                    <h3 class="text-lg font-bold text-neutral-base mb-3">Envío Gratuito</h3>
+                    <p class="text-sm text-neutral-muted leading-relaxed">Envío gratuito para que recibas tus productos directamente en la puerta de tu casa.</p>
+                </div>
+
+                <!-- Disponible EE. UU. -->
+                <div class="flex flex-col items-center">
+                    <div class="w-16 h-16 mb-5">
+                        <!-- Requiere que guardes la foto como "bandera.png" -->
+                        <img src="bandera.png" alt="Bandera Estados Unidos" class="w-full h-full object-contain">
+                    </div>
+                    <h3 class="text-lg font-bold text-neutral-base mb-3">Disponible EE. UU.</h3>
+                    <p class="text-sm text-neutral-muted leading-relaxed">Llegamos a todo Estados Unidos con entregas rápidas y seguras de tus productos.</p>
+                </div>
+
+                <!-- Garantía 100% -->
+                <div class="flex flex-col items-center">
+                    <div class="w-16 h-16 text-clinical-800 mb-5">
+                        <svg fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M21 13.255A23.931 23.931 0 0112 15c-3.183 0-6.22-.62-9-1.745M16 6V4a2 2 0 00-2-2h-4a2 2 0 00-2 2v2m4 6h.01M5 20h14a2 2 0 002-2V8a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"></path>
+                        </svg>
+                    </div>
+                    <h3 class="text-lg font-bold text-neutral-base mb-3">Garantía 100%</h3>
+                    <p class="text-sm text-neutral-muted leading-relaxed">Calidad de nuestros productos con una garantía total que protege tu inversión.</p>
+                </div>
+
+                <!-- Pago Seguro -->
+                <div class="flex flex-col items-center">
+                    <div class="w-16 h-16 text-clinical-800 mb-5">
+                        <svg fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M12 15v2m-6 4h12a2 2 0 002-2v-6a2 2 0 00-2-2H6a2 2 0 00-2 2v6a2 2 0 002 2zm10-10V7a4 4 0 00-8 0v4h8z"></path>
+                        </svg>
+                    </div>
+                    <h3 class="text-lg font-bold text-neutral-base mb-3">Pago Seguro</h3>
+                    <p class="text-sm text-neutral-muted leading-relaxed">Tus transacciones están protegidas con los sistemas más avanzados de seguridad.</p>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Banner de Conversión Final -->
+    <section class="max-w-5xl mx-auto px-6 pb-20 pt-10">
+        <div class="bg-clinical-900 rounded-3xl p-8 sm:p-12 text-center text-white shadow-xl shadow-clinical-900/10">
             <h3 class="text-2xl sm:text-3xl font-bold mb-4">¿Tienes dudas sobre tu caso particular?</h3>
             <p class="text-neutral-200 text-sm sm:text-base max-w-xl mx-auto mb-8 leading-relaxed">
                 Nuestros asesores revisan tu cuadro o condición para indicarte el tiempo de tratamiento recomendado.
@@ -395,14 +425,19 @@
 
     <!-- Footer sobrio -->
     <footer class="border-t border-neutral-border py-12 text-xs text-neutral-muted bg-white">
-        <div class="max-w-6xl mx-auto px-6 flex flex-col sm:flex-row items-center justify-between gap-6">
-            <div class="flex items-center gap-3">
+        <div class="max-w-6xl mx-auto px-6 flex flex-col sm:flex-row items-center justify-between gap-6 text-center sm:text-left">
+            <div class="flex items-center gap-3 flex-col sm:flex-row">
                 <img src="logo.png" alt="Natural Latin Life" class="h-8 w-auto object-contain">
                 <span>Natural Latin Life • Suplementos y Salud Natural</span>
             </div>
             <p>© 2026 Natural Latin Life. Toda la información suministrada se basa en las propiedades botánicas reconocidas de la AFA.</p>
         </div>
     </footer>
+
+    <!-- Botón Flotante de WhatsApp -->
+    <a href="https://wa.me/18132915034?text=Hola,%20quisiera%20recibir%20asesoría%20sobre%20sus%20tratamientos." target="_blank" class="fixed bottom-6 right-6 bg-whatsapp text-white p-4 rounded-full shadow-2xl z-50 hover:bg-whatsapp-hover transition-transform hover:scale-110 flex items-center justify-center">
+        <svg class="w-8 h-8" fill="currentColor" viewBox="0 0 24 24"><path d="M12.031 0C5.385 0 0 5.385 0 12.031c0 2.12.552 4.148 1.597 5.961L.12 24l6.196-1.46c1.748.948 3.702 1.455 5.715 1.455 6.646 0 12.031-5.385 12.031-12.031S18.677 0 12.031 0zm3.896 17.382c-.172.484-.984.953-1.461 1.023-.422.063-1.008.117-3.086-.742-2.5-1.031-4.102-3.602-4.227-3.766-.125-.164-1.008-1.344-1.008-2.563 0-1.219.633-1.82.859-2.055.227-.234.492-.297.656-.297.164 0 .328 0 .469.008.148.008.344-.055.539.414.195.469.664 1.625.727 1.75.063.125.102.273.016.445-.086.172-.133.273-.266.422-.125.156-.266.336-.383.453-.125.125-.258.266-.117.516.141.25.625 1.039 1.344 1.68.922.82 1.695 1.07 1.945 1.195.25.125.398.102.547-.063.148-.172.641-.75.813-1.008.172-.258.344-.219.57-.133.227.086 1.437.68 1.688.805.25.125.414.188.477.297.063.109.063.633-.109 1.117z"/></svg>
+    </a>
 
 </body>
 </html>
