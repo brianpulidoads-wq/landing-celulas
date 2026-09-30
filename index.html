@@ -3,10 +3,11 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Recupera tu Salud | Natural Latin Life</title>
+    <title>Células Madre AFA | Natural Latin Life</title>
+    <!-- Fuentes sobrias: Instrument Sans para titulares y cuerpo -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
     <script src="https://cdn.tailwindcss.com"></script>
     <script>
         tailwind.config = {
@@ -20,6 +21,8 @@
                             50: '#f8faf8',
                             100: '#f0f4f1',
                             200: '#e1e9e3',
+                            700: '#2d4d36',
+                            800: '#1b3523',
                             900: '#0f2316',
                         },
                         neutral: {
@@ -27,10 +30,6 @@
                             muted: '#64748b',
                             light: '#f8fafc',
                             border: '#e2e8f0',
-                        },
-                        whatsapp: {
-                            DEFAULT: '#25D366',
-                            hover: '#20bd5a'
                         }
                     }
                 }
@@ -38,167 +37,261 @@
         }
     </script>
 </head>
-<body class="bg-white text-neutral-base font-sans antialiased">
+<body class="bg-[#ffffff] text-neutral-base font-sans antialiased selection:bg-clinical-100 selection:text-clinical-900">
 
-    <!-- Anuncio superior -->
+    <!-- Anuncio superior fino -->
     <aside class="bg-clinical-900 text-white text-xs py-2.5 px-4 text-center tracking-wide font-medium">
-        Asesoría personalizada en salud natural • Envíos seguros a tu domicilio
+        Fórmula basada en extracto natural de AFA cosechada de origen silvestre • Envíos a todo el país
     </aside>
 
-    <!-- Header con Logo Protagonista -->
-    <header class="sticky top-0 z-50 bg-white/95 backdrop-blur-md border-b border-neutral-border shadow-sm">
-        <div class="max-w-6xl mx-auto px-6 py-4 flex flex-col md:flex-row items-center justify-between gap-4">
-            <div class="flex-shrink-0">
-                <img src="logo.png" alt="Natural Latin Life" class="h-20 md:h-24 w-auto object-contain drop-shadow-sm">
+    <!-- Barra de navegación minimalista -->
+    <header class="sticky top-0 z-50 bg-white/90 backdrop-blur-md border-b border-neutral-border">
+        <div class="max-w-6xl mx-auto px-6 h-20 flex items-center justify-between">
+            <div class="flex items-center gap-3">
+                <img src="logo.png" alt="Natural Latin Life" class="h-12 w-auto object-contain">
             </div>
-            
-            <div class="flex items-center gap-4">
-                <span class="hidden md:block text-sm font-semibold text-neutral-muted">¿Necesitas ayuda con tu salud?</span>
-                <a href="https://wa.me/18132915034?text=Hola,%20deseo%20asesor%C3%ADa%20personalizada%20con%20Natural%20Latin%20Life" target="_blank" class="inline-flex items-center gap-2 bg-whatsapp text-white px-6 py-3 rounded-full text-sm font-bold tracking-wide hover:bg-whatsapp-hover transition-colors shadow-lg shadow-green-200">
-                    <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24"><path d="M12.031 0C5.385 0 0 5.385 0 12.031c0 2.12.552 4.148 1.597 5.961L.12 24l6.196-1.46c1.748.948 3.702 1.455 5.715 1.455 6.646 0 12.031-5.385 12.031-12.031S18.677 0 12.031 0zm3.896 17.382c-.172.484-.984.953-1.461 1.023-.422.063-1.008.117-3.086-.742-2.5-1.031-4.102-3.602-4.227-3.766-.125-.164-1.008-1.344-1.008-2.563 0-1.219.633-1.82.859-2.055.227-.234.492-.297.656-.297.164 0 .328 0 .469.008.148.008.344-.055.539.414.195.469.664 1.625.727 1.75.063.125.102.273.016.445-.086.172-.133.273-.266.422-.125.156-.266.336-.383.453-.125.125-.258.266-.117.516.141.25.625 1.039 1.344 1.68.922.82 1.695 1.07 1.945 1.195.25.125.398.102.547-.063.148-.172.641-.75.813-1.008.172-.258.344-.219.57-.133.227.086 1.437.68 1.688.805.25.125.414.188.477.297.063.109.063.633-.109 1.117z"/></svg>
-                    Hablar con un asesor
+            <nav class="hidden md:flex items-center gap-8 text-sm font-medium text-neutral-muted">
+                <a href="#mecanismo" class="hover:text-clinical-900 transition-colors">Mecanismo de acción</a>
+                <a href="#beneficios" class="hover:text-clinical-900 transition-colors">Aplicaciones clínicas</a>
+                <a href="#composicion" class="hover:text-clinical-900 transition-colors">Ficha técnica</a>
+            </nav>
+            <div>
+                <a href="https://wa.me/573000000000?text=Hola,%20deseo%20asesoría%20sobre%20el%20tratamiento%20de%20Células%20Madre%20AFA" target="_blank" class="inline-flex items-center gap-2 bg-clinical-900 text-white px-5 py-2.5 rounded-full text-xs font-semibold tracking-wide hover:bg-clinical-800 transition-colors">
+                    Consultar con un asesor
                 </a>
             </div>
         </div>
     </header>
 
-    <!-- Sección 1: El Problema y la Empatía (Hero con Imagen de Fondo) -->
-    <section class="relative bg-cover bg-center bg-no-repeat py-20 md:py-32" style="background-image: url('https://images.unsplash.com/photo-1507676184212-d0330a151f84?q=80&w=1920&auto=format&fit=crop');">
-        
-        <!-- Capa blanca semitransparente para garantizar que el texto y las cajas resalten -->
-        <div class="absolute inset-0 bg-white/85 sm:bg-white/75 backdrop-blur-[1px]"></div>
-
-        <div class="relative z-10 max-w-6xl mx-auto px-6">
-            <div class="max-w-3xl mx-auto text-center">
-                <h1 class="text-4xl md:text-5xl font-extrabold tracking-tight text-neutral-base leading-tight mb-6 drop-shadow-sm">
-                    No tienes que resignarte a vivir con dolor crónico o falta de energía.
-                </h1>
-                <p class="text-lg md:text-xl text-neutral-800 font-medium leading-relaxed mb-10">
-                    Sabemos lo frustrante que es ver cómo las molestias articulares, el agotamiento o las enfermedades crónicas limitan tu día a día. En Natural Latin Life no solo entregamos suplementos; te brindamos un puente hacia la recuperación de tu vitalidad.
-                </p>
-            </div>
-
-            <div class="grid grid-cols-1 md:grid-cols-3 gap-6 mt-12">
-                <div class="bg-white border border-clinical-200 p-8 rounded-2xl text-center shadow-xl shadow-neutral-200/50">
-                    <div class="text-4xl mb-4">🦴</div>
-                    <h3 class="text-xl font-bold text-neutral-base mb-2">Dolores y Articulaciones</h3>
-                    <p class="text-neutral-muted text-sm">Ayudamos a personas con artritis, osteoporosis y reumatismo a desinflamar y reparar tejidos dañados de forma natural.</p>
-                </div>
-                <div class="bg-white border border-clinical-200 p-8 rounded-2xl text-center shadow-xl shadow-neutral-200/50">
-                    <div class="text-4xl mb-4">🩸</div>
-                    <h3 class="text-xl font-bold text-neutral-base mb-2">Control Metabólico</h3>
-                    <p class="text-neutral-muted text-sm">Brindamos soporte celular para quienes buscan equilibrar sus niveles de glucosa (diabetes), colesterol e hipertensión.</p>
-                </div>
-                <div class="bg-white border border-clinical-200 p-8 rounded-2xl text-center shadow-xl shadow-neutral-200/50">
-                    <div class="text-4xl mb-4">⚡</div>
-                    <h3 class="text-xl font-bold text-neutral-base mb-2">Fatiga y Agotamiento</h3>
-                    <p class="text-neutral-muted text-sm">Para quienes sienten que su cuerpo ya no rinde igual. Estimulamos la oxigenación y la energía vital desde la raíz.</p>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Sección 2: La Solución (El Producto y la Ciencia) -->
-    <section class="bg-neutral-light border-y border-neutral-border py-20">
-        <div class="max-w-6xl mx-auto px-6 grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
+    <!-- Hero Section con estilo clínico editorial -->
+    <section class="max-w-6xl mx-auto px-6 pt-12 pb-20 md:py-24">
+        <div class="grid grid-cols-1 lg:grid-cols-12 gap-12 lg:gap-16 items-center">
             
-            <div class="order-2 lg:order-1">
-                <span class="text-clinical-900 text-sm font-bold uppercase tracking-wider mb-2 block">Nuestra Solución Principal</span>
-                <h2 class="text-3xl md:text-4xl font-bold text-neutral-base mb-6">Regeneración desde adentro con Células Madre AFA.</h2>
-                <p class="text-base text-neutral-muted leading-relaxed mb-6">
-                    Tu cuerpo tiene la capacidad de curarse a sí mismo, pero con los años y las enfermedades, esa capacidad disminuye. Nuestro tratamiento con <strong>Aphanizomenon Flos-Aquae (AFA)</strong> no es un calmante temporal; es un estimulador biológico.
+            <div class="lg:col-span-7">
+                <div class="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-clinical-50 border border-clinical-200 text-clinical-700 text-xs font-semibold uppercase tracking-wider mb-6">
+                    Suplemento de Regeneración Tisular
+                </div>
+                
+                <h1 class="text-3xl sm:text-5xl lg:text-5xl font-bold tracking-tight text-neutral-base leading-[1.15] mb-6">
+                    Estimulación y liberación natural de células madre adultas.
+                </h1>
+                
+                <p class="text-base sm:text-lg text-neutral-muted leading-relaxed mb-8 max-w-xl">
+                    Tratamiento formulado con <strong class="text-neutral-base font-semibold">Aphanizomenon Flos-Aquae (AFA)</strong> pura[cite: 11, 12]. Actúa sobre la médula ósea promoviendo la migración celular hacia tejidos lesionados o con desgaste crónico[cite: 11, 13].
                 </p>
-                <ul class="space-y-4 mb-8 text-neutral-base font-medium">
-                    <li class="flex gap-3">
-                        <span class="text-whatsapp text-xl">✓</span>
-                        <p><strong>Libera células madre adultas</strong> desde tu médula ósea directamente al torrente sanguíneo.</p>
+
+                <!-- Puntos clave rápidos -->
+                <ul class="space-y-3 mb-10 text-sm text-neutral-base font-medium">
+                    <li class="flex items-center gap-3">
+                        <span class="w-1.5 h-1.5 rounded-full bg-clinical-700"></span>
+                        Liberación comprobada de células pluripotentes a la sangre en 60 minutos[cite: 11].
                     </li>
-                    <li class="flex gap-3">
-                        <span class="text-whatsapp text-xl">✓</span>
-                        <p><strong>Renueva tejidos enfermos.</strong> Las células viajan hacia el órgano, músculo o hueso que necesita reparación y se transforman en tejido sano.</p>
+                    <li class="flex items-center gap-3">
+                        <span class="w-1.5 h-1.5 rounded-full bg-clinical-700"></span>
+                        100% libre de aditivos artificiales, sin efectos colaterales[cite: 11].
                     </li>
-                    <li class="flex gap-3">
-                        <span class="text-whatsapp text-xl">✓</span>
-                        <p><strong>100% de origen silvestre</strong>, sin químicos agresivos ni efectos secundarios.</p>
+                    <li class="flex items-center gap-3">
+                        <span class="w-1.5 h-1.5 rounded-full bg-clinical-700"></span>
+                        Alta biodisponibilidad y asimilación celular[cite: 13, 14].
                     </li>
                 </ul>
 
-                <a href="https://wa.me/18132915034?text=Hola,%20quisiera%20informaci%C3%B3n%20para%20comprar%20el%20tratamiento%20de%20C%C3%A9lulas%20Madre" target="_blank" class="inline-flex items-center gap-2 bg-whatsapp text-white px-8 py-4 rounded-xl font-bold text-lg hover:bg-whatsapp-hover transition shadow-md w-full justify-center md:w-auto">
-                    💬 Preguntar por disponibilidad
-                </a>
+                <div class="flex flex-col sm:flex-row items-stretch sm:items-center gap-4">
+                    <a href="https://wa.me/573000000000?text=Hola,%20deseo%20ordenar%20el%20tratamiento%20de%20Células%20Madre%20AFA" target="_blank" class="text-center bg-clinical-900 text-white px-8 py-4 rounded-xl font-semibold text-sm hover:bg-clinical-800 transition shadow-sm">
+                        Solicitar tratamiento directo
+                    </a>
+                    <a href="#composicion" class="text-center bg-white text-neutral-base border border-neutral-border px-8 py-4 rounded-xl font-semibold text-sm hover:bg-neutral-light transition">
+                        Ver especificaciones técnicas
+                    </a>
+                </div>
             </div>
 
-            <div class="order-1 lg:order-2 flex justify-center">
-                <div class="relative bg-white border border-neutral-border rounded-3xl p-10 w-full max-w-md shadow-sm">
-                    <img src="producto.jpg" alt="Suplemento Células Madre AFA" class="w-full h-auto object-contain hover:scale-105 transition-transform duration-500">
-                    <div class="absolute -bottom-5 left-1/2 transform -translate-x-1/2 bg-clinical-900 text-white text-xs font-bold px-4 py-2 rounded-full uppercase tracking-wide whitespace-nowrap">
-                        Tratamiento 100% Natural
-                    </div>
+            <!-- Columna del producto -->
+            <div class="lg:col-span-5">
+                <div class="relative bg-clinical-50/70 border border-clinical-200/60 rounded-3xl p-8 sm:p-12 flex items-center justify-center">
+                    <img src="producto.jpg" alt="Suplemento Células Madre AFA 60 Cápsulas" class="w-full max-w-[280px] h-auto object-contain drop-shadow-xl hover:scale-102 transition-transform duration-300">
+                </div>
+                <div class="mt-4 flex justify-between items-center text-xs text-neutral-muted px-2">
+                    <span>Presentación: 60 Cápsulas[cite: 15]</span>
+                    <span>Origen: Lago Klamath, EE. UU.[cite: 12]</span>
                 </div>
             </div>
 
         </div>
     </section>
 
-    <!-- Sección 3: Ficha Técnica (El respaldo profesional) -->
-    <section id="composicion" class="max-w-4xl mx-auto px-6 py-20">
-        <div class="text-center mb-10">
-            <h2 class="text-2xl font-bold text-neutral-base">Especificaciones del Tratamiento</h2>
-            <p class="text-neutral-muted mt-2">Respaldado por la pureza de sus componentes.</p>
+    <!-- Indicadores de confianza -->
+    <section class="border-y border-neutral-border bg-neutral-light/50 py-10">
+        <div class="max-w-6xl mx-auto px-6 grid grid-cols-2 md:grid-cols-4 gap-8 text-center">
+            <div>
+                <p class="text-2xl font-bold text-neutral-base mb-1">AFA Pura</p>
+                <p class="text-xs text-neutral-muted">Microalga de agua dulce[cite: 12]</p>
+            </div>
+            <div>
+                <p class="text-2xl font-bold text-neutral-base mb-1">250 mg</p>
+                <p class="text-xs text-neutral-muted">Concentración activa por cápsula[cite: 11]</p>
+            </div>
+            <div>
+                <p class="text-2xl font-bold text-neutral-base mb-1">Pluripotente</p>
+                <p class="text-xs text-neutral-muted">Regeneración multi-tejido[cite: 11]</p>
+            </div>
+            <div>
+                <p class="text-2xl font-bold text-neutral-base mb-1">100%</p>
+                <p class="text-xs text-neutral-muted">Composición natural[cite: 11]</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Mecanismo de Acción -->
+    <section id="mecanismo" class="max-w-6xl mx-auto px-6 py-24">
+        <div class="max-w-2xl mb-16">
+            <span class="text-clinical-700 text-xs font-bold uppercase tracking-wider">Base Científica</span>
+            <h2 class="text-3xl font-bold tracking-tight text-neutral-base mt-2 mb-4">¿Cómo actúa la microalga AFA en el organismo?</h2>
+            <p class="text-neutral-muted text-base leading-relaxed">
+                A diferencia de los complementos sintéticos habituales, el extracto de Aphanizomenon Flos Aquae contiene moduladores biológicos que activan la capacidad autoregenerativa del cuerpo[cite: 11, 13].
+            </p>
         </div>
 
-        <div class="border border-neutral-border rounded-2xl overflow-hidden bg-white shadow-sm">
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+            <div class="p-8 rounded-2xl border border-neutral-border bg-white">
+                <span class="text-sm font-semibold text-clinical-700 block mb-3">01 / Activación</span>
+                <h3 class="text-lg font-bold text-neutral-base mb-2">Estímulo en médula ósea</h3>
+                <p class="text-sm text-neutral-muted leading-relaxed">
+                    Al ser metabolizada, envía señales bioactivas que estimulan la liberación de células madre adultas hacia el torrente circulatorio[cite: 11, 13].
+                </p>
+            </div>
+
+            <div class="p-8 rounded-2xl border border-neutral-border bg-white">
+                <span class="text-sm font-semibold text-clinical-700 block mb-3">02 / Migración</span>
+                <h3 class="text-lg font-bold text-neutral-base mb-2">Transporte a zonas críticas</h3>
+                <p class="text-sm text-neutral-muted leading-relaxed">
+                    Las células madre viajan por la sangre hacia órganos, articulaciones y tejidos que presenten daño celular o procesos inflamatorios[cite: 11, 13].
+                </p>
+            </div>
+
+            <div class="p-8 rounded-2xl border border-neutral-border bg-white">
+                <span class="text-sm font-semibold text-clinical-700 block mb-3">03 / Diferenciación</span>
+                <h3 class="text-lg font-bold text-neutral-base mb-2">Renovación tisular</h3>
+                <p class="text-sm text-neutral-muted leading-relaxed">
+                    Al llegar al objetivo, las células pluripotentes se transforman en tejido funcional nuevo (piel, músculo, cartílago o neuronas)[cite: 11, 14].
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Aplicaciones clínicas / Patologías -->
+    <section id="beneficios" class="bg-clinical-50/50 border-y border-neutral-border py-24">
+        <div class="max-w-6xl mx-auto px-6">
+            <div class="max-w-2xl mb-16">
+                <span class="text-clinical-700 text-xs font-bold uppercase tracking-wider">Campos de Aplicación</span>
+                <h2 class="text-3xl font-bold tracking-tight text-neutral-base mt-2 mb-4">Áreas donde actúa el tratamiento</h2>
+                <p class="text-neutral-muted text-base leading-relaxed">
+                    Indicado como tratamiento de soporte y regeneración para condiciones inflamatorias, degenerativas o de desgaste crónico[cite: 11, 13, 14]:
+                </p>
+            </div>
+
+            <div class="grid grid-cols-2 md:grid-cols-4 gap-4">
+                <div class="bg-white p-5 rounded-xl border border-neutral-border/70 text-sm font-semibold text-neutral-base">
+                    Salud Articular & Artritis[cite: 11, 13]
+                </div>
+                <div class="bg-white p-5 rounded-xl border border-neutral-border/70 text-sm font-semibold text-neutral-base">
+                    Metabolismo y Diabetes[cite: 11, 13]
+                </div>
+                <div class="bg-white p-5 rounded-xl border border-neutral-border/70 text-sm font-semibold text-neutral-base">
+                    Hipertensión & Circulación[cite: 11, 13]
+                </div>
+                <div class="bg-white p-5 rounded-xl border border-neutral-border/70 text-sm font-semibold text-neutral-base">
+                    Osteoporosis & Densidad Ósea[cite: 11]
+                </div>
+                <div class="bg-white p-5 rounded-xl border border-neutral-border/70 text-sm font-semibold text-neutral-base">
+                    Dolor Muscular Crónico[cite: 11]
+                </div>
+                <div class="bg-white p-5 rounded-xl border border-neutral-border/70 text-sm font-semibold text-neutral-base">
+                    Soporte Neuronal & Memoria[cite: 11, 14]
+                </div>
+                <div class="bg-white p-5 rounded-xl border border-neutral-border/70 text-sm font-semibold text-neutral-base">
+                    Depuración y Función Hepática[cite: 13]
+                </div>
+                <div class="bg-white p-5 rounded-xl border border-neutral-border/70 text-sm font-semibold text-neutral-base">
+                    Fatiga Crónica & Energía Vital[cite: 11, 13]
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Ficha Técnica -->
+    <section id="composicion" class="max-w-4xl mx-auto px-6 py-24">
+        <div class="text-center mb-12">
+            <span class="text-clinical-700 text-xs font-bold uppercase tracking-wider">Ficha de Composición</span>
+            <h2 class="text-3xl font-bold tracking-tight text-neutral-base mt-2">Dosis y Especificaciones</h2>
+        </div>
+
+        <div class="border border-neutral-border rounded-2xl overflow-hidden bg-white">
             <div class="grid grid-cols-1 md:grid-cols-2 divide-y md:divide-y-0 md:divide-x divide-neutral-border">
+                
                 <div class="p-8">
-                    <h3 class="text-base font-bold text-neutral-base mb-4">Modo de Uso</h3>
+                    <h3 class="text-base font-bold text-neutral-base mb-4">Protocolo de Ingesta</h3>
                     <div class="space-y-4 text-sm text-neutral-muted">
                         <div>
-                            <span class="block font-semibold text-neutral-base">Dosis Recomendada</span>
-                            Tomar 2 cápsulas diarias.
+                            <span class="block font-semibold text-neutral-base">Dosis Diaria</span>
+                            2 cápsulas al día con abundante agua[cite: 11].
                         </div>
                         <div>
-                            <span class="block font-semibold text-neutral-base">Presentación</span>
-                            Frasco sellado con 60 cápsulas (Tratamiento para 1 mes).
+                            <span class="block font-semibold text-neutral-base">Momento sugerido</span>
+                            Tomar en ayunas o 30 minutos antes del desayuno para una absorción óptima.
+                        </div>
+                        <div>
+                            <span class="block font-semibold text-neutral-base">Tolerancia</span>
+                            Apto para uso continuado. Sin contraindicaciones descritas[cite: 11].
                         </div>
                     </div>
                 </div>
-                <div class="p-8 bg-neutral-light/50">
-                    <h3 class="text-base font-bold text-neutral-base mb-4">Componente Activo</h3>
-                    <div class="space-y-3 text-sm text-neutral-muted">
-                        <div class="flex justify-between border-b border-neutral-border pb-2">
-                            <span class="text-neutral-base">AFA (Aphanizomenon flos-aquae)</span>
-                            <span class="font-bold text-neutral-base">250 mg</span>
+
+                <div class="p-8 bg-neutral-light/40">
+                    <h3 class="text-base font-bold text-neutral-base mb-4">Ingredientes Activos</h3>
+                    <div class="space-y-4 text-sm text-neutral-muted">
+                        <div class="flex justify-between border-b border-neutral-border/60 pb-2">
+                            <span class="text-neutral-base font-medium">AFA (Aphanizomenon Flos-Aquae)[cite: 11]</span>
+                            <span class="font-semibold text-neutral-base">250 mg[cite: 11]</span>
                         </div>
-                        <div class="flex justify-between border-b border-neutral-border pb-2">
-                            <span>Complejo multivitamínico natural</span>
-                            <span class="text-neutral-base">Incluido</span>
+                        <div class="flex justify-between border-b border-neutral-border/60 pb-2">
+                            <span>Vitamina B & K naturales[cite: 12, 13]</span>
+                            <span class="text-neutral-base">Presentes[cite: 12]</span>
+                        </div>
+                        <div class="flex justify-between border-b border-neutral-border/60 pb-2">
+                            <span>Complejo de Clorofila & Enzimas[cite: 12, 13]</span>
+                            <span class="text-neutral-base">Activo[cite: 12, 13]</span>
+                        </div>
+                        <div class="flex justify-between">
+                            <span>Ácidos Grasos Esenciales (Omega 3)[cite: 12, 13]</span>
+                            <span class="text-neutral-base">Natural[cite: 12]</span>
                         </div>
                     </div>
                 </div>
+
             </div>
         </div>
-    </section>
 
-    <!-- Banner Final (CTA) -->
-    <section class="max-w-5xl mx-auto px-6 pb-20">
-        <div class="bg-clinical-50 border border-clinical-200 rounded-3xl p-10 md:p-16 text-center">
-            <h3 class="text-2xl md:text-3xl font-bold text-neutral-base mb-4">Da el primer paso para mejorar tu vida hoy.</h3>
-            <p class="text-neutral-muted text-base max-w-2xl mx-auto mb-8">
-                No tienes que tomar la decisión solo. Escríbenos, cuéntanos tus síntomas o condiciones, y un experto de nuestro equipo te guiará para saber si este tratamiento es ideal para ti.
+        <!-- Banner de Conversión Final -->
+        <div class="mt-12 bg-clinical-900 rounded-3xl p-8 sm:p-12 text-center text-white">
+            <h3 class="text-2xl sm:text-3xl font-bold mb-4">¿Tienes dudas sobre tu caso particular?</h3>
+            <p class="text-neutral-200 text-sm sm:text-base max-w-xl mx-auto mb-8 leading-relaxed">
+                Nuestros asesores revisan tu cuadro o condición para indicarte el tiempo de tratamiento recomendado.
             </p>
-            <a href="https://wa.me/18132915034?text=Hola,%20me%20gustar%C3%ADa%20recibir%20asesor%C3%ADa%20sobre%20el%20producto%20de%20c%C3%A9lulas%20madre." target="_blank" class="inline-flex items-center gap-2 bg-whatsapp text-white px-10 py-4 rounded-xl font-bold text-lg hover:bg-whatsapp-hover transition shadow-lg shadow-green-200">
-                <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 24 24"><path d="M12.031 0C5.385 0 0 5.385 0 12.031c0 2.12.552 4.148 1.597 5.961L.12 24l6.196-1.46c1.748.948 3.702 1.455 5.715 1.455 6.646 0 12.031-5.385 12.031-12.031S18.677 0 12.031 0zm3.896 17.382c-.172.484-.984.953-1.461 1.023-.422.063-1.008.117-3.086-.742-2.5-1.031-4.102-3.602-4.227-3.766-.125-.164-1.008-1.344-1.008-2.563 0-1.219.633-1.82.859-2.055.227-.234.492-.297.656-.297.164 0 .328 0 .469.008.148.008.344-.055.539.414.195.469.664 1.625.727 1.75.063.125.102.273.016.445-.086.172-.133.273-.266.422-.125.156-.266.336-.383.453-.125.125-.258.266-.117.516.141.25.625 1.039 1.344 1.68.922.82 1.695 1.07 1.945 1.195.25.125.398.102.547-.063.148-.172.641-.75.813-1.008.172-.258.344-.219.57-.133.227.086 1.437.68 1.688.805.25.125.414.188.477.297.063.109.063.633-.109 1.117z"/></svg>
-                Conversar por WhatsApp
+            <a href="https://wa.me/573000000000?text=Hola,%20deseo%20asesoría%20sobre%20el%20tratamiento%20de%20Células%20Madre%20AFA" target="_blank" class="inline-block bg-white text-clinical-900 px-8 py-4 rounded-xl font-semibold text-sm hover:bg-neutral-light transition shadow-md">
+                Hablar con un asesor por WhatsApp
             </a>
-            <p class="mt-4 text-xs font-semibold text-neutral-muted">Línea directa: +1 813 291 5034</p>
         </div>
     </section>
 
-    <!-- Footer -->
-    <footer class="border-t border-neutral-border py-12 text-sm text-neutral-muted bg-white">
-        <div class="max-w-6xl mx-auto px-6 flex flex-col items-center justify-center gap-4 text-center">
-            <img src="logo.png" alt="Natural Latin Life" class="h-12 w-auto object-contain opacity-80">
-            <p>© 2026 Natural Latin Life. Todos los derechos reservados.</p>
+    <!-- Footer sobrio -->
+    <footer class="border-t border-neutral-border py-12 text-xs text-neutral-muted bg-white">
+        <div class="max-w-6xl mx-auto px-6 flex flex-col sm:flex-row items-center justify-between gap-6">
+            <div class="flex items-center gap-3">
+                <img src="logo.png" alt="Natural Latin Life" class="h-8 w-auto object-contain">
+                <span>Natural Latin Life • Suplementos y Salud Natural</span>
+            </div>
+            <p>© 2026 Natural Latin Life. Toda la información suministrada se basa en las propiedades botánicas reconocidas de la AFA[cite: 12, 13].</p>
         </div>
     </footer>
 
