@@ -48,7 +48,6 @@
     <!-- Header con Logo Protagonista -->
     <header class="sticky top-0 z-50 bg-white/95 backdrop-blur-md border-b border-neutral-border shadow-sm">
         <div class="max-w-6xl mx-auto px-6 py-4 flex flex-col md:flex-row items-center justify-between gap-4">
-            <!-- Logo más grande y protagonista -->
             <div class="flex-shrink-0">
                 <img src="logo.png" alt="Natural Latin Life" class="h-20 md:h-24 w-auto object-contain drop-shadow-sm">
             </div>
@@ -63,32 +62,38 @@
         </div>
     </header>
 
-    <!-- Sección 1: El Problema y la Empatía (Cómo ayudamos) -->
-    <section class="max-w-6xl mx-auto px-6 py-16 md:py-24">
-        <div class="max-w-3xl mx-auto text-center">
-            <h1 class="text-4xl md:text-5xl font-extrabold tracking-tight text-neutral-base leading-tight mb-6">
-                No tienes que resignarte a vivir con dolor crónico o falta de energía.
-            </h1>
-            <p class="text-lg md:text-xl text-neutral-muted leading-relaxed mb-10">
-                Sabemos lo frustrante que es ver cómo las molestias articulares, el agotamiento o las enfermedades crónicas limitan tu día a día. En Natural Latin Life no solo entregamos suplementos; te brindamos un puente hacia la recuperación de tu vitalidad.
-            </p>
-        </div>
+    <!-- Sección 1: El Problema y la Empatía (Hero con Imagen de Fondo) -->
+    <section class="relative bg-cover bg-center bg-no-repeat py-20 md:py-32" style="background-image: url('https://images.unsplash.com/photo-1507676184212-d0330a151f84?q=80&w=1920&auto=format&fit=crop');">
+        
+        <!-- Capa blanca semitransparente para garantizar que el texto y las cajas resalten -->
+        <div class="absolute inset-0 bg-white/85 sm:bg-white/75 backdrop-blur-[1px]"></div>
 
-        <div class="grid grid-cols-1 md:grid-cols-3 gap-6 mt-12">
-            <div class="bg-clinical-50 border border-clinical-200 p-8 rounded-2xl text-center">
-                <div class="text-4xl mb-4">🦴</div>
-                <h3 class="text-xl font-bold text-neutral-base mb-2">Dolores y Articulaciones</h3>
-                <p class="text-neutral-muted text-sm">Ayudamos a personas con artritis, osteoporosis y reumatismo a desinflamar y reparar tejidos dañados de forma natural.</p>
+        <div class="relative z-10 max-w-6xl mx-auto px-6">
+            <div class="max-w-3xl mx-auto text-center">
+                <h1 class="text-4xl md:text-5xl font-extrabold tracking-tight text-neutral-base leading-tight mb-6 drop-shadow-sm">
+                    No tienes que resignarte a vivir con dolor crónico o falta de energía.
+                </h1>
+                <p class="text-lg md:text-xl text-neutral-800 font-medium leading-relaxed mb-10">
+                    Sabemos lo frustrante que es ver cómo las molestias articulares, el agotamiento o las enfermedades crónicas limitan tu día a día. En Natural Latin Life no solo entregamos suplementos; te brindamos un puente hacia la recuperación de tu vitalidad.
+                </p>
             </div>
-            <div class="bg-clinical-50 border border-clinical-200 p-8 rounded-2xl text-center">
-                <div class="text-4xl mb-4">🩸</div>
-                <h3 class="text-xl font-bold text-neutral-base mb-2">Control Metabólico</h3>
-                <p class="text-neutral-muted text-sm">Brindamos soporte celular para quienes buscan equilibrar sus niveles de glucosa (diabetes), colesterol e hipertensión.</p>
-            </div>
-            <div class="bg-clinical-50 border border-clinical-200 p-8 rounded-2xl text-center">
-                <div class="text-4xl mb-4">⚡</div>
-                <h3 class="text-xl font-bold text-neutral-base mb-2">Fatiga y Agotamiento</h3>
-                <p class="text-neutral-muted text-sm">Para quienes sienten que su cuerpo ya no rinde igual. Estimulamos la oxigenación y la energía vital desde la raíz.</p>
+
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-6 mt-12">
+                <div class="bg-white border border-clinical-200 p-8 rounded-2xl text-center shadow-xl shadow-neutral-200/50">
+                    <div class="text-4xl mb-4">🦴</div>
+                    <h3 class="text-xl font-bold text-neutral-base mb-2">Dolores y Articulaciones</h3>
+                    <p class="text-neutral-muted text-sm">Ayudamos a personas con artritis, osteoporosis y reumatismo a desinflamar y reparar tejidos dañados de forma natural.</p>
+                </div>
+                <div class="bg-white border border-clinical-200 p-8 rounded-2xl text-center shadow-xl shadow-neutral-200/50">
+                    <div class="text-4xl mb-4">🩸</div>
+                    <h3 class="text-xl font-bold text-neutral-base mb-2">Control Metabólico</h3>
+                    <p class="text-neutral-muted text-sm">Brindamos soporte celular para quienes buscan equilibrar sus niveles de glucosa (diabetes), colesterol e hipertensión.</p>
+                </div>
+                <div class="bg-white border border-clinical-200 p-8 rounded-2xl text-center shadow-xl shadow-neutral-200/50">
+                    <div class="text-4xl mb-4">⚡</div>
+                    <h3 class="text-xl font-bold text-neutral-base mb-2">Fatiga y Agotamiento</h3>
+                    <p class="text-neutral-muted text-sm">Para quienes sienten que su cuerpo ya no rinde igual. Estimulamos la oxigenación y la energía vital desde la raíz.</p>
+                </div>
             </div>
         </div>
     </section>
@@ -123,7 +128,6 @@
                 </a>
             </div>
 
-            <!-- Imagen del Producto -->
             <div class="order-1 lg:order-2 flex justify-center">
                 <div class="relative bg-white border border-neutral-border rounded-3xl p-10 w-full max-w-md shadow-sm">
                     <img src="producto.jpg" alt="Suplemento Células Madre AFA" class="w-full h-auto object-contain hover:scale-105 transition-transform duration-500">
