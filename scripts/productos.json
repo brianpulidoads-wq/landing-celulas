@@ -1,0 +1,123 @@
+[
+  {
+    "slug": "vena-flow",
+    "nombre": "Vena Flow",
+    "categoria": "Circulación y piernas",
+    "presentacion": "60 cápsulas vegetales",
+    "porcion": "2 cápsulas",
+    "frase": "Alivio para piernas cansadas, pesadas e hinchadas.",
+    "resumen": "Fórmula con diosmina y hesperidina, dos flavonoides estudiados para el bienestar venoso. Puede ayudar a aliviar la hinchazón, la pesadez y las molestias en las piernas asociadas a las várices.",
+    "beneficios": [
+      "Puede contribuir a reducir la hinchazón de piernas y tobillos.",
+      "Ayuda a aliviar la sensación de piernas pesadas o cansadas, sobre todo después de pasar mucho tiempo de pie.",
+      "Puede disminuir el dolor o la sensación de tensión en las piernas.",
+      "Mayor comodidad en las piernas durante las actividades del día."
+    ],
+    "ingredientes": [
+      {"nombre": "Diosmina", "cantidad": "750 mg", "detalle": "Flavonoide de referencia para el bienestar venoso. Algunas formulaciones estudiadas han ayudado a reducir el edema y la sensación de pesadez en las piernas."},
+      {"nombre": "Hesperidina", "cantidad": "100 mg", "detalle": "Complementa a la diosmina. En fórmulas combinadas puede contribuir al alivio de la pesadez, el dolor y la sensación de hinchazón."},
+      {"nombre": "Pimienta negra", "cantidad": "2 mg", "detalle": "Aporta piperina, un componente que puede favorecer el aprovechamiento de ciertas sustancias."}
+    ],
+    "nota": "Vena Flow apoya el alivio de síntomas como la hinchazón y la pesadez. No elimina las várices ni repara las válvulas venosas.",
+    "precaucion": ""
+  },
+  {
+    "slug": "b-flex",
+    "nombre": "B-Flex",
+    "categoria": "Articulaciones",
+    "presentacion": "Frasco en cápsulas",
+    "porcion": "",
+    "frase": "Muévete con más comodidad cada día.",
+    "resumen": "Combina glucosamina, condroitina y MSM, tres ingredientes muy utilizados para el bienestar de las articulaciones. Está pensado para quienes buscan más comodidad al caminar, levantarse o subir escalones.",
+    "beneficios": [
+      "Mayor comodidad al mover las articulaciones.",
+      "Posible reducción del dolor y de la sensación de rigidez.",
+      "Posible mejoría de la función de la rodilla en algunas personas con osteoartritis.",
+      "Apoyo al bienestar musculoesquelético con ingredientes relacionados con el cartílago."
+    ],
+    "ingredientes": [
+      {"nombre": "Glucosamina sulfato", "cantidad": "", "detalle": "Componente básico de la matriz del cartílago. Se ha estudiado sobre todo en el dolor y la función de la rodilla."},
+      {"nombre": "Condroitina sulfato", "cantidad": "", "detalle": "Componente natural del cartílago que contribuye a su resistencia cuando la articulación recibe carga."},
+      {"nombre": "MSM (metilsulfonilmetano)", "cantidad": "", "detalle": "Compuesto con azufre investigado por su posible contribución al alivio de molestias articulares."}
+    ],
+    "nota": "La glucosamina y la condroitina están relacionadas con la composición natural del cartílago; el MSM complementa la fórmula. Juntos se usan para apoyar la comodidad articular.",
+    "precaucion": ""
+  },
+  {
+    "slug": "orvex-pro",
+    "nombre": "Orvex Pro",
+    "categoria": "Salud masculina",
+    "presentacion": "90 cápsulas",
+    "porcion": "3 cápsulas",
+    "frase": "Energía, vitalidad y circulación para el hombre.",
+    "resumen": "Fórmula para hombres con L-citrulina, L-arginina, maca, ginseng y tongkat ali. Sus ingredientes se utilizan para apoyar la circulación, la energía, la resistencia y el deseo sexual.",
+    "beneficios": [
+      "Apoyo al deseo sexual y a la vitalidad masculina.",
+      "Favorece una circulación sanguínea saludable.",
+      "Más energía y resistencia física; ayuda frente al cansancio.",
+      "El zinc apoya la producción normal de testosterona."
+    ],
+    "ingredientes": [
+      {"nombre": "L-Citrulina malato", "cantidad": "2.000 mg", "detalle": "Favorece la producción de óxido nítrico y puede mejorar la circulación y la resistencia."},
+      {"nombre": "L-Arginina HCl", "cantidad": "1.000 mg", "detalle": "Precursor del óxido nítrico; ayuda a un flujo sanguíneo saludable."},
+      {"nombre": "Maca", "cantidad": "1.000 mg", "detalle": "Raíz andina usada tradicionalmente para apoyar la libido, la energía y la vitalidad."},
+      {"nombre": "Panax ginseng", "cantidad": "300 mg", "detalle": "Puede ayudar a combatir el cansancio y favorece la energía física y mental."},
+      {"nombre": "Tongkat ali", "cantidad": "300 mg", "detalle": "Utilizado tradicionalmente para la vitalidad y el rendimiento físico masculino."},
+      {"nombre": "Horny goat weed", "cantidad": "250 mg", "detalle": "Planta de uso tradicional en la salud sexual."},
+      {"nombre": "Zinc", "cantidad": "25 mg", "detalle": "Mineral importante para la salud reproductiva masculina y el sistema inmunológico."},
+      {"nombre": "Yohimbina HCl", "cantidad": "10 mg", "detalle": "Puede aumentar el estado de alerta y la energía."}
+    ],
+    "nota": "Los beneficios corresponden a los ingredientes; la respuesta varía en cada persona.",
+    "precaucion": "Contiene yohimbina, que puede causar nerviosismo, palpitaciones o aumento de la presión arterial en personas sensibles. Si tienes hipertensión, problemas cardíacos o tomas medicamentos, consulta a tu médico antes de usarlo."
+  },
+  {
+    "slug": "nmn-resveratrol",
+    "nombre": "NMN + Resveratrol",
+    "categoria": "Energía celular",
+    "presentacion": "60 cápsulas",
+    "porcion": "2 cápsulas",
+    "frase": "Apoyo a la energía de tus células.",
+    "resumen": "Fórmula 3 en 1 con NMN, trans-resveratrol y extracto de pimienta negra. El NMN apoya los niveles de NAD, una molécula clave en la producción de energía celular; el resveratrol aporta actividad antioxidante.",
+    "beneficios": [
+      "El NMN puede aumentar los niveles de NAD en sangre, el efecto mejor respaldado en estudios con personas.",
+      "Apoyo a los procesos con los que las células producen energía.",
+      "El resveratrol aporta actividad antioxidante.",
+      "Posible apoyo a la función física y al descanso en adultos mayores."
+    ],
+    "ingredientes": [
+      {"nombre": "Trans-resveratrol", "cantidad": "600 mg", "detalle": "Polifenol estudiado por su actividad antioxidante y su posible apoyo metabólico y vascular."},
+      {"nombre": "NMN (β-nicotinamida mononucleótido)", "cantidad": "500 mg", "detalle": "Precursor del NAD, cofactor que participa en el metabolismo energético de las células."},
+      {"nombre": "Extracto de pimienta negra", "cantidad": "10 mg", "detalle": "Aporta piperina, que puede favorecer el aprovechamiento de ciertas sustancias."}
+    ],
+    "nota": "Los beneficios se refieren a procesos celulares y no implican necesariamente una sensación inmediata de más energía.",
+    "precaucion": ""
+  },
+  {
+    "slug": "shilajit-multi-b-pro",
+    "nombre": "Shilajit 8 en 1 + Multi B Pro",
+    "categoria": "Energía y vitalidad",
+    "presentacion": "2 frascos de 60 cápsulas",
+    "porcion": "",
+    "frase": "Vitalidad diaria y apoyo para tus nervios.",
+    "resumen": "Dúo que combina Shilajit 8 en 1 (shilajit con siete extractos botánicos) y Multi B Pro (vitaminas y minerales). Apoya la energía, la función nerviosa y muscular, y el bienestar general.",
+    "beneficios": [
+      "Apoyo al funcionamiento normal del sistema nervioso y de los nervios gracias a las vitaminas B1, B6 y B12.",
+      "Posible mejoría del hormigueo o entumecimiento cuando se deben a falta de vitaminas B.",
+      "Ayuda a reducir el cansancio asociado a deficiencias nutricionales.",
+      "Protección antioxidante con vitaminas C y E, zinc y selenio.",
+      "Complemento nutricional para personas con diabetes con déficit de vitamina B12."
+    ],
+    "ingredientes": [
+      {"nombre": "Shilajit", "cantidad": "", "detalle": "Resina mineral usada tradicionalmente para la vitalidad; estudiada frente a la fatiga muscular."},
+      {"nombre": "Ashwagandha", "cantidad": "", "detalle": "Puede ayudar a reducir el estrés y favorecer el sueño."},
+      {"nombre": "Rhodiola rosea", "cantidad": "", "detalle": "Uso tradicional frente al cansancio y para la adaptación al estrés."},
+      {"nombre": "Panax ginseng", "cantidad": "", "detalle": "Puede ofrecer una mejoría modesta del cansancio."},
+      {"nombre": "Cordyceps", "cantidad": "", "detalle": "Potencial apoyo a la tolerancia al ejercicio."},
+      {"nombre": "Ginkgo biloba", "cantidad": "", "detalle": "Posible apoyo a la circulación periférica."},
+      {"nombre": "Ortiga y cúrcuma", "cantidad": "", "detalle": "Usadas para el bienestar articular; la cúrcuma aporta curcuminoides antioxidantes."},
+      {"nombre": "Multi B Pro", "cantidad": "", "detalle": "Vitaminas A, C, D, E, K y complejo B (B1, B2, B3, B5, B6, B7, B9, B12) con magnesio, zinc, selenio, cromo, potasio y otros minerales."}
+    ],
+    "nota": "Shilajit 8 en 1 aporta 15.250 mg de extractos por porción, según su etiqueta.",
+    "precaucion": ""
+  }
+]

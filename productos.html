@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="es" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Productos | Natural World Services</title>
+    <meta name="description" content="Catálogo de suplementos naturales de Natural World Services.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    fontFamily: { sans: ['"Plus Jakarta Sans"', 'sans-serif'] },
+                    colors: {
+                        clinical: { 50: '#f8faf8', 100: '#f0f4f1', 200: '#e1e9e3', 700: '#2d4d36', 800: '#1b3523', 900: '#0f2316' },
+                        neutral: { base: '#0f172a', muted: '#64748b', light: '#f8fafc', border: '#e2e8f0' },
+                        whatsapp: { DEFAULT: '#25D366', hover: '#20bd5a' }
+                    }
+                }
+            }
+        }
+    </script>
+</head>
+<body class="bg-[#ffffff] text-neutral-base font-sans antialiased selection:bg-clinical-100 selection:text-clinical-900 relative">
+
+    <aside class="bg-clinical-900 text-white text-xs py-2.5 px-4 text-center tracking-wide font-medium">
+        Suplementos naturales • Envíos seguros a todo Estados Unidos
+    </aside>
+
+    <header class="sticky top-0 z-50 bg-white/90 backdrop-blur-md border-b border-neutral-border">
+        <div class="max-w-6xl mx-auto px-4 sm:px-6 h-20 flex items-center justify-between gap-4">
+            <a href="index.html" class="flex items-center gap-3 shrink-0">
+                <img src="logo.png" alt="Natural World Services" class="h-10 sm:h-12 w-auto object-contain">
+            </a>
+            <nav class="hidden md:flex items-center gap-8 text-sm font-medium text-neutral-muted">
+                <a href="index.html" class="hover:text-clinical-900 transition-colors">Inicio</a>
+                <a href="index.html#nosotros" class="hover:text-clinical-900 transition-colors">Nosotros</a>
+                <a href="productos.html" class="text-clinical-900 font-semibold">Productos</a>
+            </nav>
+            <div class="flex items-center gap-3">
+                <a href="productos.html" class="md:hidden text-sm font-semibold text-clinical-900">Productos</a>
+                <a href="https://wa.me/18132915034?text=Hola%2C%20quisiera%20asesor%C3%ADa%20sobre%20sus%20productos" target="_blank" rel="noopener" class="inline-flex items-center gap-2 bg-clinical-900 text-white px-4 sm:px-5 py-2.5 rounded-full text-xs font-semibold tracking-wide hover:bg-clinical-800 transition-colors">
+                    <span class="hidden sm:inline">Consultar con un asesor</span><span class="sm:hidden">Asesor</span>
+                </a>
+            </div>
+        </div>
+    </header>
+
+    <main>
+    <section class="bg-clinical-50/40 border-b border-neutral-border py-16">
+        <div class="max-w-6xl mx-auto px-4 sm:px-6">
+            <span class="text-clinical-700 text-xs font-bold uppercase tracking-wider">Catálogo</span>
+            <h1 class="text-4xl font-extrabold tracking-tight text-neutral-base mt-2 mb-4">Nuestros productos</h1>
+            <p class="text-neutral-muted text-lg max-w-2xl leading-relaxed">Suplementos naturales para cada necesidad. Elige el tuyo o escríbenos y un asesor te ayuda a encontrar el indicado.</p>
+        </div>
+    </section>
+
+    <section class="max-w-6xl mx-auto px-4 sm:px-6 py-12">
+        <div class="flex flex-wrap gap-2 mb-10" role="group" aria-label="Filtrar por categoría"><button type="button" data-filtro="todos" class="filtro px-4 py-2 rounded-full text-sm font-semibold border transition bg-clinical-900 text-white border-clinical-900">Todos</button><button type="button" data-filtro="Circulación y piernas" class="filtro px-4 py-2 rounded-full text-sm font-semibold border transition bg-white text-neutral-muted border-neutral-border hover:border-clinical-700">Circulación y piernas</button><button type="button" data-filtro="Articulaciones" class="filtro px-4 py-2 rounded-full text-sm font-semibold border transition bg-white text-neutral-muted border-neutral-border hover:border-clinical-700">Articulaciones</button><button type="button" data-filtro="Salud masculina" class="filtro px-4 py-2 rounded-full text-sm font-semibold border transition bg-white text-neutral-muted border-neutral-border hover:border-clinical-700">Salud masculina</button><button type="button" data-filtro="Energía celular" class="filtro px-4 py-2 rounded-full text-sm font-semibold border transition bg-white text-neutral-muted border-neutral-border hover:border-clinical-700">Energía celular</button><button type="button" data-filtro="Energía y vitalidad" class="filtro px-4 py-2 rounded-full text-sm font-semibold border transition bg-white text-neutral-muted border-neutral-border hover:border-clinical-700">Energía y vitalidad</button></div>
+        <div id="grid-productos" class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+                <a href="vena-flow.html" data-categoria="Circulación y piernas" class="producto-card group flex flex-col bg-white rounded-2xl border border-neutral-border overflow-hidden shadow-sm hover:shadow-lg hover:border-clinical-200 transition">
+                    <div class="aspect-[4/3] flex items-center justify-center overflow-hidden" style="background:#f4eee7">
+                        <img src="img/productos/vena-flow.jpg" alt="Vena Flow" loading="lazy" class="w-full h-full object-contain group-hover:scale-105 transition-transform duration-300">
+                    </div>
+                    <div class="p-6 flex flex-col flex-1">
+                        <span class="text-clinical-700 text-[11px] font-bold uppercase tracking-wider mb-2">Circulación y piernas</span>
+                        <h3 class="text-lg font-bold text-neutral-base mb-2">Vena Flow</h3>
+                        <p class="text-sm text-neutral-muted leading-relaxed mb-5 flex-1">Alivio para piernas cansadas, pesadas e hinchadas.</p>
+                        <span class="text-sm font-semibold text-clinical-900 inline-flex items-center gap-1">Ver producto <span class="group-hover:translate-x-1 transition-transform">→</span></span>
+                    </div>
+                </a>
+                <a href="b-flex.html" data-categoria="Articulaciones" class="producto-card group flex flex-col bg-white rounded-2xl border border-neutral-border overflow-hidden shadow-sm hover:shadow-lg hover:border-clinical-200 transition">
+                    <div class="aspect-[4/3] flex items-center justify-center overflow-hidden" style="background:#cdd3d7">
+                        <img src="img/productos/b-flex.jpg" alt="B-Flex" loading="lazy" class="w-full h-full object-contain group-hover:scale-105 transition-transform duration-300">
+                    </div>
+                    <div class="p-6 flex flex-col flex-1">
+                        <span class="text-clinical-700 text-[11px] font-bold uppercase tracking-wider mb-2">Articulaciones</span>
+                        <h3 class="text-lg font-bold text-neutral-base mb-2">B-Flex</h3>
+                        <p class="text-sm text-neutral-muted leading-relaxed mb-5 flex-1">Muévete con más comodidad cada día.</p>
+                        <span class="text-sm font-semibold text-clinical-900 inline-flex items-center gap-1">Ver producto <span class="group-hover:translate-x-1 transition-transform">→</span></span>
+                    </div>
+                </a>
+                <a href="orvex-pro.html" data-categoria="Salud masculina" class="producto-card group flex flex-col bg-white rounded-2xl border border-neutral-border overflow-hidden shadow-sm hover:shadow-lg hover:border-clinical-200 transition">
+                    <div class="aspect-[4/3] flex items-center justify-center overflow-hidden" style="background:#050505">
+                        <img src="img/productos/orvex-pro.jpg" alt="Orvex Pro" loading="lazy" class="w-full h-full object-contain group-hover:scale-105 transition-transform duration-300">
+                    </div>
+                    <div class="p-6 flex flex-col flex-1">
+                        <span class="text-clinical-700 text-[11px] font-bold uppercase tracking-wider mb-2">Salud masculina</span>
+                        <h3 class="text-lg font-bold text-neutral-base mb-2">Orvex Pro</h3>
+                        <p class="text-sm text-neutral-muted leading-relaxed mb-5 flex-1">Energía, vitalidad y circulación para el hombre.</p>
+                        <span class="text-sm font-semibold text-clinical-900 inline-flex items-center gap-1">Ver producto <span class="group-hover:translate-x-1 transition-transform">→</span></span>
+                    </div>
+                </a>
+                <a href="nmn-resveratrol.html" data-categoria="Energía celular" class="producto-card group flex flex-col bg-white rounded-2xl border border-neutral-border overflow-hidden shadow-sm hover:shadow-lg hover:border-clinical-200 transition">
+                    <div class="aspect-[4/3] flex items-center justify-center overflow-hidden" style="background:#0b0b0b">
+                        <img src="img/productos/nmn-resveratrol.jpg" alt="NMN + Resveratrol" loading="lazy" class="w-full h-full object-contain group-hover:scale-105 transition-transform duration-300">
+                    </div>
+                    <div class="p-6 flex flex-col flex-1">
+                        <span class="text-clinical-700 text-[11px] font-bold uppercase tracking-wider mb-2">Energía celular</span>
+                        <h3 class="text-lg font-bold text-neutral-base mb-2">NMN + Resveratrol</h3>
+                        <p class="text-sm text-neutral-muted leading-relaxed mb-5 flex-1">Apoyo a la energía de tus células.</p>
+                        <span class="text-sm font-semibold text-clinical-900 inline-flex items-center gap-1">Ver producto <span class="group-hover:translate-x-1 transition-transform">→</span></span>
+                    </div>
+                </a>
+                <a href="shilajit-multi-b-pro.html" data-categoria="Energía y vitalidad" class="producto-card group flex flex-col bg-white rounded-2xl border border-neutral-border overflow-hidden shadow-sm hover:shadow-lg hover:border-clinical-200 transition">
+                    <div class="aspect-[4/3] flex items-center justify-center overflow-hidden" style="background:#fefefe">
+                        <img src="img/productos/shilajit-multi-b-pro.jpg" alt="Shilajit 8 en 1 + Multi B Pro" loading="lazy" class="w-full h-full object-contain group-hover:scale-105 transition-transform duration-300">
+                    </div>
+                    <div class="p-6 flex flex-col flex-1">
+                        <span class="text-clinical-700 text-[11px] font-bold uppercase tracking-wider mb-2">Energía y vitalidad</span>
+                        <h3 class="text-lg font-bold text-neutral-base mb-2">Shilajit 8 en 1 + Multi B Pro</h3>
+                        <p class="text-sm text-neutral-muted leading-relaxed mb-5 flex-1">Vitalidad diaria y apoyo para tus nervios.</p>
+                        <span class="text-sm font-semibold text-clinical-900 inline-flex items-center gap-1">Ver producto <span class="group-hover:translate-x-1 transition-transform">→</span></span>
+                    </div>
+                </a>
+        </div>
+    </section>
+    </main>
+
+    <script>
+        document.querySelectorAll('.filtro').forEach(function (btn) {
+            btn.addEventListener('click', function () {
+                var f = btn.dataset.filtro;
+                document.querySelectorAll('.filtro').forEach(function (b) {
+                    var activo = b === btn;
+                    b.classList.toggle('bg-clinical-900', activo);
+                    b.classList.toggle('text-white', activo);
+                    b.classList.toggle('border-clinical-900', activo);
+                    b.classList.toggle('bg-white', !activo);
+                    b.classList.toggle('text-neutral-muted', !activo);
+                    b.classList.toggle('border-neutral-border', !activo);
+                });
+                document.querySelectorAll('.producto-card').forEach(function (c) {
+                    c.style.display = (f === 'todos' || c.dataset.categoria === f) ? '' : 'none';
+                });
+            });
+        });
+    </script>
+
+    <footer class="border-t border-neutral-border py-12 text-xs text-neutral-muted bg-white">
+        <div class="max-w-6xl mx-auto px-6 flex flex-col gap-6">
+            <div class="flex flex-col sm:flex-row items-center justify-between gap-6 text-center sm:text-left">
+                <div class="flex items-center gap-3 flex-col sm:flex-row">
+                    <img src="logo.png" alt="Natural World Services" class="h-8 w-auto object-contain">
+                    <span>Natural World Services • Suplementos y Salud Natural</span>
+                </div>
+                <p>© 2026 Natural World Services. Línea directa: +1 813 291 5034</p>
+            </div>
+            <p class="text-center sm:text-left leading-relaxed text-neutral-muted/90">
+                Estas declaraciones no han sido evaluadas por la Administración de Alimentos y Medicamentos (FDA). Estos productos no están destinados a diagnosticar, tratar, curar ni prevenir ninguna enfermedad. Los resultados pueden variar según la persona. Consulta a tu médico antes de tomar suplementos si estás embarazada, en lactancia, tomas medicamentos o tienes una condición médica.
+            </p>
+        </div>
+    </footer>
+
+    <a href="https://wa.me/18132915034?text=Hola%2C%20quisiera%20asesor%C3%ADa%20sobre%20sus%20productos" target="_blank" rel="noopener" aria-label="Escríbenos por WhatsApp" class="fixed bottom-6 right-6 bg-whatsapp text-white p-4 rounded-full shadow-2xl z-50 hover:bg-whatsapp-hover transition-transform hover:scale-110 flex items-center justify-center">
+        <svg class="w-8 h-8" fill="currentColor" viewBox="0 0 24 24"><path d="M12.031 0C5.385 0 0 5.385 0 12.031c0 2.12.552 4.148 1.597 5.961L.12 24l6.196-1.46c1.748.948 3.702 1.455 5.715 1.455 6.646 0 12.031-5.385 12.031-12.031S18.677 0 12.031 0zm3.896 17.382c-.172.484-.984.953-1.461 1.023-.422.063-1.008.117-3.086-.742-2.5-1.031-4.102-3.602-4.227-3.766-.125-.164-1.008-1.344-1.008-2.563 0-1.219.633-1.820.859-2.055.227-.234.492-.297.656-.297.164 0 .328 0 .469.008.148.008.344-.055.539.414.195.469.664 1.625.727 1.75.063.125.102.273.016.445-.086.172-.133.273-.266.422-.125.156-.266.336-.383.453-.125.125-.258.266-.117.516.141.25.625 1.039 1.344 1.680.922.820 1.695 1.070 1.945 1.195.25.125.398.102.547-.063.148-.172.641-.75.813-1.008.172-.258.344-.219.57-.133.227.086 1.437.68 1.688.805.25.125.414.188.477.297.063.109.063.633-.109 1.117z"/></svg>
+    </a>
+
+</body>
+</html>
