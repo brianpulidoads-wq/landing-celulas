@@ -14,9 +14,21 @@
       "Mayor comodidad en las piernas durante las actividades del día."
     ],
     "ingredientes": [
-      {"nombre": "Diosmina", "cantidad": "750 mg", "detalle": "Flavonoide de referencia para el bienestar venoso. Algunas formulaciones estudiadas han ayudado a reducir el edema y la sensación de pesadez en las piernas."},
-      {"nombre": "Hesperidina", "cantidad": "100 mg", "detalle": "Complementa a la diosmina. En fórmulas combinadas puede contribuir al alivio de la pesadez, el dolor y la sensación de hinchazón."},
-      {"nombre": "Pimienta negra", "cantidad": "2 mg", "detalle": "Aporta piperina, un componente que puede favorecer el aprovechamiento de ciertas sustancias."}
+      {
+        "nombre": "Diosmina",
+        "cantidad": "750 mg",
+        "detalle": "Flavonoide de referencia para el bienestar venoso. Algunas formulaciones estudiadas han ayudado a reducir el edema y la sensación de pesadez en las piernas."
+      },
+      {
+        "nombre": "Hesperidina",
+        "cantidad": "100 mg",
+        "detalle": "Complementa a la diosmina. En fórmulas combinadas puede contribuir al alivio de la pesadez, el dolor y la sensación de hinchazón."
+      },
+      {
+        "nombre": "Pimienta negra",
+        "cantidad": "2 mg",
+        "detalle": "Aporta piperina, un componente que puede favorecer el aprovechamiento de ciertas sustancias."
+      }
     ],
     "nota": "Vena Flow apoya el alivio de síntomas como la hinchazón y la pesadez. No elimina las várices ni repara las válvulas venosas.",
     "precaucion": ""
@@ -36,9 +48,21 @@
       "Apoyo al bienestar musculoesquelético con ingredientes relacionados con el cartílago."
     ],
     "ingredientes": [
-      {"nombre": "Glucosamina sulfato", "cantidad": "", "detalle": "Componente básico de la matriz del cartílago. Se ha estudiado sobre todo en el dolor y la función de la rodilla."},
-      {"nombre": "Condroitina sulfato", "cantidad": "", "detalle": "Componente natural del cartílago que contribuye a su resistencia cuando la articulación recibe carga."},
-      {"nombre": "MSM (metilsulfonilmetano)", "cantidad": "", "detalle": "Compuesto con azufre investigado por su posible contribución al alivio de molestias articulares."}
+      {
+        "nombre": "Glucosamina sulfato",
+        "cantidad": "",
+        "detalle": "Componente básico de la matriz del cartílago. Se ha estudiado sobre todo en el dolor y la función de la rodilla."
+      },
+      {
+        "nombre": "Condroitina sulfato",
+        "cantidad": "",
+        "detalle": "Componente natural del cartílago que contribuye a su resistencia cuando la articulación recibe carga."
+      },
+      {
+        "nombre": "MSM (metilsulfonilmetano)",
+        "cantidad": "",
+        "detalle": "Compuesto con azufre investigado por su posible contribución al alivio de molestias articulares."
+      }
     ],
     "nota": "La glucosamina y la condroitina están relacionadas con la composición natural del cartílago; el MSM complementa la fórmula. Juntos se usan para apoyar la comodidad articular.",
     "precaucion": ""
@@ -58,14 +82,46 @@
       "El zinc apoya la producción normal de testosterona."
     ],
     "ingredientes": [
-      {"nombre": "L-Citrulina malato", "cantidad": "2.000 mg", "detalle": "Favorece la producción de óxido nítrico y puede mejorar la circulación y la resistencia."},
-      {"nombre": "L-Arginina HCl", "cantidad": "1.000 mg", "detalle": "Precursor del óxido nítrico; ayuda a un flujo sanguíneo saludable."},
-      {"nombre": "Maca", "cantidad": "1.000 mg", "detalle": "Raíz andina usada tradicionalmente para apoyar la libido, la energía y la vitalidad."},
-      {"nombre": "Panax ginseng", "cantidad": "300 mg", "detalle": "Puede ayudar a combatir el cansancio y favorece la energía física y mental."},
-      {"nombre": "Tongkat ali", "cantidad": "300 mg", "detalle": "Utilizado tradicionalmente para la vitalidad y el rendimiento físico masculino."},
-      {"nombre": "Horny goat weed", "cantidad": "250 mg", "detalle": "Planta de uso tradicional en la salud sexual."},
-      {"nombre": "Zinc", "cantidad": "25 mg", "detalle": "Mineral importante para la salud reproductiva masculina y el sistema inmunológico."},
-      {"nombre": "Yohimbina HCl", "cantidad": "10 mg", "detalle": "Puede aumentar el estado de alerta y la energía."}
+      {
+        "nombre": "L-Citrulina malato",
+        "cantidad": "2.000 mg",
+        "detalle": "Favorece la producción de óxido nítrico y puede mejorar la circulación y la resistencia."
+      },
+      {
+        "nombre": "L-Arginina HCl",
+        "cantidad": "1.000 mg",
+        "detalle": "Precursor del óxido nítrico; ayuda a un flujo sanguíneo saludable."
+      },
+      {
+        "nombre": "Maca",
+        "cantidad": "1.000 mg",
+        "detalle": "Raíz andina usada tradicionalmente para apoyar la libido, la energía y la vitalidad."
+      },
+      {
+        "nombre": "Panax ginseng",
+        "cantidad": "300 mg",
+        "detalle": "Puede ayudar a combatir el cansancio y favorece la energía física y mental."
+      },
+      {
+        "nombre": "Tongkat ali",
+        "cantidad": "300 mg",
+        "detalle": "Utilizado tradicionalmente para la vitalidad y el rendimiento físico masculino."
+      },
+      {
+        "nombre": "Horny goat weed",
+        "cantidad": "250 mg",
+        "detalle": "Planta de uso tradicional en la salud sexual."
+      },
+      {
+        "nombre": "Zinc",
+        "cantidad": "25 mg",
+        "detalle": "Mineral importante para la salud reproductiva masculina y el sistema inmunológico."
+      },
+      {
+        "nombre": "Yohimbina HCl",
+        "cantidad": "10 mg",
+        "detalle": "Puede aumentar el estado de alerta y la energía."
+      }
     ],
     "nota": "Los beneficios corresponden a los ingredientes; la respuesta varía en cada persona.",
     "precaucion": "Contiene yohimbina, que puede causar nerviosismo, palpitaciones o aumento de la presión arterial en personas sensibles. Si tienes hipertensión, problemas cardíacos o tomas medicamentos, consulta a tu médico antes de usarlo."
@@ -85,9 +141,21 @@
       "Posible apoyo a la función física y al descanso en adultos mayores."
     ],
     "ingredientes": [
-      {"nombre": "Trans-resveratrol", "cantidad": "600 mg", "detalle": "Polifenol estudiado por su actividad antioxidante y su posible apoyo metabólico y vascular."},
-      {"nombre": "NMN (β-nicotinamida mononucleótido)", "cantidad": "500 mg", "detalle": "Precursor del NAD, cofactor que participa en el metabolismo energético de las células."},
-      {"nombre": "Extracto de pimienta negra", "cantidad": "10 mg", "detalle": "Aporta piperina, que puede favorecer el aprovechamiento de ciertas sustancias."}
+      {
+        "nombre": "Trans-resveratrol",
+        "cantidad": "600 mg",
+        "detalle": "Polifenol estudiado por su actividad antioxidante y su posible apoyo metabólico y vascular."
+      },
+      {
+        "nombre": "NMN (β-nicotinamida mononucleótido)",
+        "cantidad": "500 mg",
+        "detalle": "Precursor del NAD, cofactor que participa en el metabolismo energético de las células."
+      },
+      {
+        "nombre": "Extracto de pimienta negra",
+        "cantidad": "10 mg",
+        "detalle": "Aporta piperina, que puede favorecer el aprovechamiento de ciertas sustancias."
+      }
     ],
     "nota": "Los beneficios se refieren a procesos celulares y no implican necesariamente una sensación inmediata de más energía.",
     "precaucion": ""
@@ -108,16 +176,635 @@
       "Complemento nutricional para personas con diabetes con déficit de vitamina B12."
     ],
     "ingredientes": [
-      {"nombre": "Shilajit", "cantidad": "", "detalle": "Resina mineral usada tradicionalmente para la vitalidad; estudiada frente a la fatiga muscular."},
-      {"nombre": "Ashwagandha", "cantidad": "", "detalle": "Puede ayudar a reducir el estrés y favorecer el sueño."},
-      {"nombre": "Rhodiola rosea", "cantidad": "", "detalle": "Uso tradicional frente al cansancio y para la adaptación al estrés."},
-      {"nombre": "Panax ginseng", "cantidad": "", "detalle": "Puede ofrecer una mejoría modesta del cansancio."},
-      {"nombre": "Cordyceps", "cantidad": "", "detalle": "Potencial apoyo a la tolerancia al ejercicio."},
-      {"nombre": "Ginkgo biloba", "cantidad": "", "detalle": "Posible apoyo a la circulación periférica."},
-      {"nombre": "Ortiga y cúrcuma", "cantidad": "", "detalle": "Usadas para el bienestar articular; la cúrcuma aporta curcuminoides antioxidantes."},
-      {"nombre": "Multi B Pro", "cantidad": "", "detalle": "Vitaminas A, C, D, E, K y complejo B (B1, B2, B3, B5, B6, B7, B9, B12) con magnesio, zinc, selenio, cromo, potasio y otros minerales."}
+      {
+        "nombre": "Shilajit",
+        "cantidad": "",
+        "detalle": "Resina mineral usada tradicionalmente para la vitalidad; estudiada frente a la fatiga muscular."
+      },
+      {
+        "nombre": "Ashwagandha",
+        "cantidad": "",
+        "detalle": "Puede ayudar a reducir el estrés y favorecer el sueño."
+      },
+      {
+        "nombre": "Rhodiola rosea",
+        "cantidad": "",
+        "detalle": "Uso tradicional frente al cansancio y para la adaptación al estrés."
+      },
+      {
+        "nombre": "Panax ginseng",
+        "cantidad": "",
+        "detalle": "Puede ofrecer una mejoría modesta del cansancio."
+      },
+      {
+        "nombre": "Cordyceps",
+        "cantidad": "",
+        "detalle": "Potencial apoyo a la tolerancia al ejercicio."
+      },
+      {
+        "nombre": "Ginkgo biloba",
+        "cantidad": "",
+        "detalle": "Posible apoyo a la circulación periférica."
+      },
+      {
+        "nombre": "Ortiga y cúrcuma",
+        "cantidad": "",
+        "detalle": "Usadas para el bienestar articular; la cúrcuma aporta curcuminoides antioxidantes."
+      },
+      {
+        "nombre": "Multi B Pro",
+        "cantidad": "",
+        "detalle": "Vitaminas A, C, D, E, K y complejo B (B1, B2, B3, B5, B6, B7, B9, B12) con magnesio, zinc, selenio, cromo, potasio y otros minerales."
+      }
     ],
     "nota": "Shilajit 8 en 1 aporta 15.250 mg de extractos por porción, según su etiqueta.",
     "precaucion": ""
+  },
+  {
+    "slug": "b-prost-natural",
+    "nombre": "B-Prost Natural",
+    "categoria": "Próstata",
+    "presentacion": "60 cápsulas blandas",
+    "porcion": "",
+    "frase": "Apoyo natural para una próstata sana.",
+    "resumen": "Con el paso de los años la próstata tiende a crecer y aparecen molestias como levantarse a orinar en la noche. B-Prost tiene como componente principal el saw palmetto, una planta usada tradicionalmente para el bienestar de la próstata.",
+    "beneficios": [
+      "Puede ayudar a reducir las ganas de orinar durante la noche.",
+      "Contribuye a un flujo urinario más normal.",
+      "Apoya el bienestar general de la próstata.",
+      "Puede mejorar la sensación de vaciado incompleto de la vejiga."
+    ],
+    "ingredientes": [
+      {
+        "nombre": "Saw palmetto",
+        "cantidad": "",
+        "detalle": "Fruto de una palma de Norteamérica, usado tradicionalmente para apoyar la salud de la próstata y aliviar las molestias urinarias asociadas a su crecimiento."
+      }
+    ],
+    "nota": "Si tienes síntomas urinarios, hazte un control de próstata con tu médico; este suplemento no reemplaza el diagnóstico.",
+    "precaucion": ""
+  },
+  {
+    "slug": "gold-prost",
+    "nombre": "Gold Prost",
+    "categoria": "Próstata",
+    "presentacion": "60 cápsulas blandas",
+    "porcion": "",
+    "frase": "Fórmula con saw palmetto para el bienestar prostático.",
+    "resumen": "Gold Prost está pensado para hombres que notan molestias urinarias con la edad. Su componente principal es el saw palmetto, una de las plantas más usadas para acompañar la salud de la próstata.",
+    "beneficios": [
+      "Puede ayudar a disminuir las idas al baño durante la noche.",
+      "Contribuye a normalizar el flujo urinario.",
+      "Apoya el bienestar general de la próstata.",
+      "Puede mejorar la comodidad urinaria del día a día."
+    ],
+    "ingredientes": [
+      {
+        "nombre": "Saw palmetto",
+        "cantidad": "",
+        "detalle": "Planta usada tradicionalmente para apoyar la salud de la próstata y aliviar las molestias urinarias asociadas a su crecimiento."
+      }
+    ],
+    "nota": "Si tienes síntomas urinarios, hazte un control de próstata con tu médico; este suplemento no reemplaza el diagnóstico.",
+    "precaucion": ""
+  },
+  {
+    "slug": "ac-prost",
+    "nombre": "AC Prost",
+    "categoria": "Próstata",
+    "presentacion": "60 cápsulas vegetales",
+    "porcion": "",
+    "frase": "Hoja de achiote para el bienestar de la próstata.",
+    "resumen": "AC Prost se elabora con hojas de achiote, una planta amazónica usada tradicionalmente por sus propiedades antiinflamatorias y para acompañar la salud de la próstata.",
+    "beneficios": [
+      "Puede ayudar a aliviar las molestias urinarias asociadas al crecimiento de la próstata.",
+      "Puede ayudar a reducir las ganas de orinar en la noche.",
+      "Aporta compuestos con acción antiinflamatoria natural.",
+      "Apoya el bienestar prostático."
+    ],
+    "ingredientes": [
+      {
+        "nombre": "Hoja de achiote",
+        "cantidad": "",
+        "detalle": "También conocida como bijol o roucou. Se usa tradicionalmente por sus propiedades antiinflamatorias y para apoyar la salud de la próstata."
+      }
+    ],
+    "nota": "Si tienes síntomas urinarios, hazte un control de próstata con tu médico; este suplemento no reemplaza el diagnóstico.",
+    "precaucion": ""
+  },
+  {
+    "slug": "vigramax",
+    "nombre": "Vigramax",
+    "categoria": "Salud masculina",
+    "presentacion": "60 cápsulas vegetales",
+    "porcion": "",
+    "frase": "Más deseo y mejor desempeño, de forma natural.",
+    "resumen": "Vigramax combina plantas y aminoácidos usados tradicionalmente para apoyar la libido y el desempeño sexual masculino.",
+    "beneficios": [
+      "Puede ayudar a aumentar el deseo sexual.",
+      "Contribuye a una buena circulación, clave para la erección.",
+      "Apoya la energía y el vigor masculino.",
+      "Fórmula de origen natural."
+    ],
+    "ingredientes": [
+      {
+        "nombre": "Hierba de cabra en celo (epimedium)",
+        "cantidad": "",
+        "detalle": "Planta usada tradicionalmente para apoyar la libido y la función eréctil."
+      },
+      {
+        "nombre": "Maca",
+        "cantidad": "",
+        "detalle": "Raíz andina asociada a más energía y deseo sexual."
+      },
+      {
+        "nombre": "Tribulus terrestris",
+        "cantidad": "",
+        "detalle": "Planta usada para apoyar el vigor y la libido masculina."
+      },
+      {
+        "nombre": "L-arginina",
+        "cantidad": "",
+        "detalle": "Aminoácido que el cuerpo usa para producir óxido nítrico, que favorece la circulación."
+      }
+    ],
+    "nota": "",
+    "precaucion": "Si tomas medicamentos para la presión, el corazón o anticoagulantes, consulta a tu médico antes de usarlo."
+  },
+  {
+    "slug": "b-vigor-pro",
+    "nombre": "B-Vigor Pro",
+    "categoria": "Salud masculina",
+    "presentacion": "60 cápsulas blandas",
+    "porcion": "",
+    "frase": "Erecciones más firmes y mejor desempeño.",
+    "resumen": "B-Vigor Pro es una fórmula natural pensada para apoyar el desempeño sexual masculino: buena irrigación sanguínea, energía y producción de hormona masculina.",
+    "beneficios": [
+      "Puede favorecer erecciones más firmes y duraderas.",
+      "Contribuye a una buena irrigación sanguínea.",
+      "Apoya la producción natural de hormona masculina.",
+      "Puede ayudar a prolongar el acto sexual."
+    ],
+    "ingredientes": [],
+    "nota": "",
+    "precaucion": "Si tomas medicamentos para la presión, el corazón o anticoagulantes, consulta a tu médico antes de usarlo."
+  },
+  {
+    "slug": "b-xtra-power",
+    "nombre": "B-Xtra Power",
+    "categoria": "Salud masculina",
+    "presentacion": "30 cápsulas blandas",
+    "porcion": "",
+    "frase": "Fórmula avanzada para potencia y resistencia.",
+    "resumen": "B-Xtra Power reúne plantas como yohimbe, maca y ginseng para hombres que quieren reforzar su vida sexual de forma natural.",
+    "beneficios": [
+      "Puede favorecer erecciones más potentes y duraderas.",
+      "Puede ayudar a prolongar el acto sexual.",
+      "Apoya la energía y la masa muscular.",
+      "Fórmula de origen natural."
+    ],
+    "ingredientes": [
+      {
+        "nombre": "Yohimbe",
+        "cantidad": "",
+        "detalle": "Corteza africana usada tradicionalmente para apoyar la función eréctil."
+      },
+      {
+        "nombre": "Maca",
+        "cantidad": "",
+        "detalle": "Raíz andina asociada a más energía y deseo sexual."
+      },
+      {
+        "nombre": "Ginseng",
+        "cantidad": "",
+        "detalle": "Raíz usada para combatir el cansancio y apoyar el vigor."
+      }
+    ],
+    "nota": "",
+    "precaucion": "Contiene yohimbe. No lo uses si tienes presión alta, problemas del corazón, ansiedad o tomas antidepresivos, salvo indicación médica."
+  },
+  {
+    "slug": "b-chanca-piedra",
+    "nombre": "B-Chanca Piedra",
+    "categoria": "Riñones y vías urinarias",
+    "presentacion": "60 cápsulas vegetales",
+    "porcion": "",
+    "frase": "Apoyo natural para riñones y vías urinarias.",
+    "resumen": "La chanca piedra (Phyllanthus niruri) es una planta amazónica usada tradicionalmente para acompañar la salud de los riñones y ayudar en casos de arenillas y cálculos.",
+    "beneficios": [
+      "Puede ayudar a eliminar arenillas.",
+      "Puede aliviar molestias en la espalda baja asociadas a los cálculos.",
+      "Apoya el buen funcionamiento de los riñones.",
+      "Fórmula de origen natural."
+    ],
+    "ingredientes": [
+      {
+        "nombre": "Chanca piedra (Phyllanthus niruri)",
+        "cantidad": "",
+        "detalle": "Planta usada tradicionalmente en la Amazonía para apoyar la salud renal y la eliminación de arenillas."
+      }
+    ],
+    "nota": "Ante dolor intenso, fiebre o sangre en la orina, acude al médico.",
+    "precaucion": ""
+  },
+  {
+    "slug": "b-cell-pro",
+    "nombre": "B-Cell Pro",
+    "categoria": "Energía celular",
+    "presentacion": "60 cápsulas blandas",
+    "porcion": "",
+    "frase": "Renovación celular y más energía.",
+    "resumen": "B-Cell Pro es una fórmula natural pensada para apoyar la renovación de las células, la recuperación del organismo y las defensas.",
+    "beneficios": [
+      "Apoya los procesos naturales de renovación celular.",
+      "Puede ayudar en la recuperación después de una cirugía.",
+      "Contribuye a fortalecer las defensas.",
+      "Ayuda a recuperar la energía."
+    ],
+    "ingredientes": [],
+    "nota": "",
+    "precaucion": ""
+  },
+  {
+    "slug": "b-collagen-plus-c",
+    "nombre": "B-Collagen Plus C",
+    "categoria": "Articulaciones",
+    "presentacion": "60 cápsulas blandas",
+    "porcion": "",
+    "frase": "Colágeno con vitamina C para piel, músculos y articulaciones.",
+    "resumen": "El colágeno es la proteína más abundante del cuerpo y da estructura a tendones, cartílagos, huesos y piel. La vitamina C ayuda a que el cuerpo lo forme.",
+    "beneficios": [
+      "Puede ayudar a reducir las molestias articulares.",
+      "Contribuye a la elasticidad de músculos y tejidos.",
+      "Ayuda a mantener la piel hidratada y firme.",
+      "Apoya la salud de huesos y cartílagos."
+    ],
+    "ingredientes": [
+      {
+        "nombre": "Colágeno",
+        "cantidad": "",
+        "detalle": "Proteína estructural de la piel, los tendones, los cartílagos y los huesos."
+      },
+      {
+        "nombre": "Vitamina C",
+        "cantidad": "",
+        "detalle": "Necesaria para que el cuerpo forme colágeno; además es antioxidante."
+      }
+    ],
+    "nota": "",
+    "precaucion": ""
+  },
+  {
+    "slug": "forte-immune-system",
+    "nombre": "Forte Immune System",
+    "categoria": "Defensas y vitaminas",
+    "presentacion": "60 cápsulas blandas",
+    "porcion": "",
+    "frase": "Calostro bovino para reforzar tus defensas.",
+    "resumen": "Forte Immune System es un suplemento a base de calostro bovino, una fuente rica en nutrientes y moléculas que participan en las defensas y en el equilibrio de la flora intestinal.",
+    "beneficios": [
+      "Contribuye a fortalecer el sistema inmune.",
+      "Ayuda a mantener el equilibrio de la flora intestinal.",
+      "Puede ayudar a prevenir resfriados y gripes.",
+      "De origen 100% natural."
+    ],
+    "ingredientes": [
+      {
+        "nombre": "Calostro bovino",
+        "cantidad": "",
+        "detalle": "Primera leche de la vaca, rica en inmunoglobulinas y factores de crecimiento que apoyan las defensas y la reparación de tejidos."
+      }
+    ],
+    "nota": "",
+    "precaucion": ""
+  },
+  {
+    "slug": "multi-b-pro",
+    "nombre": "Multi-B Pro",
+    "categoria": "Defensas y vitaminas",
+    "presentacion": "60 cápsulas vegetales",
+    "porcion": "",
+    "frase": "Vitaminas y minerales para tu energía diaria.",
+    "resumen": "Multi-B Pro combina vitaminas, aminoácidos y minerales esenciales para el organismo y ayuda a prevenir deficiencias.",
+    "beneficios": [
+      "Aporta vitaminas, aminoácidos y minerales de origen natural.",
+      "Contribuye a fortalecer las defensas.",
+      "Las vitaminas B3, B6 y B12 apoyan el sistema nervioso.",
+      "Ayuda a tener más energía."
+    ],
+    "ingredientes": [
+      {
+        "nombre": "Vitaminas B3, B6 y B12",
+        "cantidad": "",
+        "detalle": "Participan en la producción de energía y en el buen funcionamiento del sistema nervioso."
+      }
+    ],
+    "nota": "",
+    "precaucion": ""
+  },
+  {
+    "slug": "cerebrin",
+    "nombre": "Cerebrin",
+    "categoria": "Mente y descanso",
+    "presentacion": "60 cápsulas vegetales",
+    "porcion": "",
+    "frase": "Memoria, concentración y claridad mental.",
+    "resumen": "Cerebrin ayuda a mantener un sistema nervioso saludable. Si el estrés y el día a día te tienen agotado, puede darte más claridad, agilidad mental y memoria sin los efectos de los estimulantes.",
+    "beneficios": [
+      "Puede ayudar a mejorar la memoria y la concentración.",
+      "Contribuye a reducir el estrés.",
+      "Puede ayudar a disminuir mareos y dolores de cabeza frecuentes.",
+      "Apoya la salud del cerebro."
+    ],
+    "ingredientes": [],
+    "nota": "",
+    "precaucion": ""
+  },
+  {
+    "slug": "streezs-free",
+    "nombre": "Streez's Free",
+    "categoria": "Mente y descanso",
+    "presentacion": "90 cápsulas blandas",
+    "porcion": "",
+    "frase": "Menos estrés y un sueño más tranquilo.",
+    "resumen": "Combina vitaminas del complejo B con valeriana, pasiflora, hierba de San Juan y manzanilla, plantas conocidas por ayudar a calmar el estrés y la ansiedad y a conciliar el sueño.",
+    "beneficios": [
+      "Puede ayudar a disminuir la ansiedad.",
+      "Ayuda a conciliar el sueño más rápido.",
+      "Contribuye a controlar el estrés del día a día.",
+      "Puede ayudar con el insomnio de forma natural."
+    ],
+    "ingredientes": [
+      {
+        "nombre": "Valeriana",
+        "cantidad": "",
+        "detalle": "Raíz usada tradicionalmente para relajar y favorecer el sueño."
+      },
+      {
+        "nombre": "Pasiflora",
+        "cantidad": "",
+        "detalle": "Planta usada para calmar los nervios y la ansiedad."
+      },
+      {
+        "nombre": "Hierba de San Juan",
+        "cantidad": "",
+        "detalle": "Planta usada para apoyar el estado de ánimo."
+      },
+      {
+        "nombre": "Manzanilla",
+        "cantidad": "",
+        "detalle": "Flor con efecto sedante suave."
+      },
+      {
+        "nombre": "Vitaminas del complejo B",
+        "cantidad": "",
+        "detalle": "Apoyan el buen funcionamiento del sistema nervioso."
+      }
+    ],
+    "nota": "",
+    "precaucion": "Contiene hierba de San Juan, que puede interactuar con antidepresivos, anticonceptivos y otros medicamentos. Consulta a tu médico si tomas alguno."
+  },
+  {
+    "slug": "b-slim-pro",
+    "nombre": "B-Slim Pro",
+    "categoria": "Control de peso",
+    "presentacion": "90 cápsulas blandas",
+    "porcion": "",
+    "frase": "Controla el apetito y acelera tu metabolismo.",
+    "resumen": "B-Slim Pro es un complemento para acompañar tu plan de reducción de peso: ayuda a controlar el apetito, a activar el metabolismo y a limpiar el colon de forma natural.",
+    "beneficios": [
+      "Puede ayudar a controlar el apetito.",
+      "Contribuye a acelerar el metabolismo.",
+      "Favorece la eliminación de grasa.",
+      "Ayuda a reducir tallas junto con buena alimentación."
+    ],
+    "ingredientes": [],
+    "nota": "",
+    "precaucion": ""
+  },
+  {
+    "slug": "b-cleanser",
+    "nombre": "B-Cleanser",
+    "categoria": "Salud digestiva",
+    "presentacion": "90 cápsulas blandas",
+    "porcion": "",
+    "frase": "Limpieza y desintoxicación del colon.",
+    "resumen": "B-Cleanser es una fórmula natural y no invasiva para la limpieza del colon, que ayuda al cuerpo a liberarse de toxinas y a sentirse más liviano.",
+    "beneficios": [
+      "Favorece la expulsión de residuos acumulados en el intestino.",
+      "Ayuda a desintoxicar el organismo.",
+      "Puede ayudar a reducir la hinchazón abdominal.",
+      "Buen complemento para planes de reducción de peso."
+    ],
+    "ingredientes": [],
+    "nota": "",
+    "precaucion": ""
+  },
+  {
+    "slug": "enzyme-plus",
+    "nombre": "Enzyme Plus",
+    "categoria": "Salud digestiva",
+    "presentacion": "60 cápsulas blandas",
+    "porcion": "",
+    "frase": "Mejor digestión, menos gases y pesadez.",
+    "resumen": "Enzyme Plus ayuda a digerir los alimentos, especialmente las proteínas. Es útil para quienes sufren de indigestión, gases, distensión abdominal o flatulencia.",
+    "beneficios": [
+      "Ayuda a una correcta digestión.",
+      "Puede reducir el ardor asociado a la gastritis.",
+      "Ayuda a eliminar gases.",
+      "Contribuye al equilibrio de la flora intestinal."
+    ],
+    "ingredientes": [
+      {
+        "nombre": "Papaína",
+        "cantidad": "",
+        "detalle": "Enzima de la papaya que ayuda a digerir las proteínas."
+      }
+    ],
+    "nota": "",
+    "precaucion": ""
+  },
+  {
+    "slug": "gastrovox",
+    "nombre": "Gastrovox",
+    "categoria": "Salud digestiva",
+    "presentacion": "60 cápsulas vegetales",
+    "porcion": "2 cápsulas al día, después de comer",
+    "frase": "Sangre de drago para aliviar la gastritis.",
+    "resumen": "Su componente principal es la sangre de drago, una resina roja del árbol Croton lechleri usada tradicionalmente para desinflamar el estómago y ayudar a cicatrizar.",
+    "beneficios": [
+      "Puede ayudar a aliviar la gastritis.",
+      "Contribuye a desinflamar el estómago.",
+      "Ayuda a mejorar el tránsito intestinal.",
+      "Aporta enzimas digestivas, fibra y minerales."
+    ],
+    "ingredientes": [
+      {
+        "nombre": "Sangre de drago",
+        "cantidad": "",
+        "detalle": "Resina del árbol Croton lechleri, usada tradicionalmente por sus propiedades cicatrizantes y antiinflamatorias."
+      }
+    ],
+    "nota": "",
+    "precaucion": ""
+  },
+  {
+    "slug": "hb-pylory",
+    "nombre": "HB-Pylory",
+    "categoria": "Salud digestiva",
+    "presentacion": "60 cápsulas vegetales",
+    "porcion": "",
+    "frase": "Alivio natural para el ardor y el reflujo.",
+    "resumen": "HB-Pylory es una fórmula natural pensada para acompañar el cuidado del estómago en personas con úlceras o con la bacteria H. pylori.",
+    "beneficios": [
+      "Puede ayudar a reducir el ardor estomacal.",
+      "Ayuda a calmar el reflujo.",
+      "Apoya la protección de la mucosa del estómago.",
+      "De origen 100% natural."
+    ],
+    "ingredientes": [],
+    "nota": "Si tienes diagnóstico de H. pylori, sigue el tratamiento que te indique tu médico; este suplemento es un complemento.",
+    "precaucion": ""
+  },
+  {
+    "slug": "sugar-control",
+    "nombre": "Sugar Control",
+    "categoria": "Glucosa",
+    "presentacion": "60 cápsulas blandas",
+    "porcion": "",
+    "frase": "Apoyo natural para mantener la glucosa en equilibrio.",
+    "resumen": "Sugar Control es una fórmula natural que apoya la acción de la insulina sobre el azúcar que comemos, ayudando a mantener la glucosa en equilibrio y a tener más energía.",
+    "beneficios": [
+      "Puede ayudar a mantener niveles saludables de glucosa.",
+      "Pensado para personas con prediabetes o diabetes, como complemento.",
+      "Contribuye a regular el colesterol.",
+      "Ayuda a tener una mejor energía durante el día."
+    ],
+    "ingredientes": [],
+    "nota": "",
+    "precaucion": "Si tomas medicamentos para la diabetes, consulta a tu médico antes de usarlo y controla tu glucosa: no suspendas tu tratamiento."
+  },
+  {
+    "slug": "perfect-curv",
+    "nombre": "Perfect Curv",
+    "categoria": "Salud femenina",
+    "presentacion": "60 cápsulas vegetales",
+    "porcion": "",
+    "frase": "Equilibrio hormonal y bienestar en la menopausia.",
+    "resumen": "Perfect Curv es un estimulador natural de la hormona femenina, pensado para recuperar la tranquilidad frente a las molestias de la menopausia, el estrés y el cansancio.",
+    "beneficios": [
+      "Puede reducir la fatiga, el estrés y las molestias de la menopausia.",
+      "Apoya el equilibrio hormonal femenino.",
+      "Puede ayudar a aumentar el deseo sexual.",
+      "Contribuye a una mejor figura."
+    ],
+    "ingredientes": [],
+    "nota": "",
+    "precaucion": "No se recomienda durante el embarazo o la lactancia."
+  },
+  {
+    "slug": "omega-3",
+    "nombre": "Omega 3 Concentrado",
+    "categoria": "Defensas y vitaminas",
+    "presentacion": "100 cápsulas blandas",
+    "porcion": "",
+    "frase": "Para un corazón sano y una buena circulación.",
+    "resumen": "El omega 3 es un ácido graso esencial que el cuerpo no produce. Apoya la salud del corazón, la circulación y ayuda a mantener el colesterol y los triglicéridos en equilibrio.",
+    "beneficios": [
+      "Contribuye a mantener un corazón sano.",
+      "Ayuda a regular el colesterol y los triglicéridos.",
+      "Apoya la circulación y la presión arterial.",
+      "Contribuye a la salud del cerebro."
+    ],
+    "ingredientes": [
+      {
+        "nombre": "Aceite de pescado concentrado",
+        "cantidad": "",
+        "detalle": "Fuente de omega 3 (EPA y DHA), ácidos grasos esenciales para el corazón y el cerebro."
+      }
+    ],
+    "nota": "",
+    "precaucion": "Si tomas anticoagulantes, consulta a tu médico antes de usarlo."
+  },
+  {
+    "slug": "cloruro-de-magnesio",
+    "nombre": "Cloruro de Magnesio",
+    "categoria": "Articulaciones",
+    "presentacion": "100 tabletas",
+    "porcion": "",
+    "frase": "Magnesio para huesos, músculos y nervios.",
+    "resumen": "Suplemento en tabletas que ayuda a la salud de huesos y dientes, al buen funcionamiento de músculos y nervios y al sistema inmune.",
+    "beneficios": [
+      "Puede ayudar a aliviar molestias articulares.",
+      "Apoya la transmisión entre nervios y músculos.",
+      "Contribuye al buen funcionamiento del corazón.",
+      "Ayuda a la salud de huesos y dientes."
+    ],
+    "ingredientes": [
+      {
+        "nombre": "Cloruro de magnesio",
+        "cantidad": "",
+        "detalle": "Mineral que participa en cientos de funciones del cuerpo, entre ellas la contracción muscular y la transmisión nerviosa."
+      }
+    ],
+    "nota": "",
+    "precaucion": ""
+  },
+  {
+    "slug": "arthri-roll-on",
+    "nombre": "Arthri Roll-On",
+    "categoria": "Articulaciones",
+    "presentacion": "1 roll-on",
+    "porcion": "",
+    "frase": "Alivio rápido para golpes, esguinces y dolor articular.",
+    "resumen": "Roll-on de fácil aplicación para aliviar el dolor por golpes o esguinces y la pesadez por cansancio en piernas y pies.",
+    "beneficios": [
+      "Ayuda a calmar el dolor por golpes.",
+      "Ayuda a desaparecer los moretones.",
+      "Alivia el dolor articular.",
+      "Sirve para calentar antes de entrenar o de un esfuerzo."
+    ],
+    "ingredientes": [],
+    "nota": "",
+    "precaucion": "Solo para uso externo. No aplicar sobre heridas abiertas."
+  },
+  {
+    "slug": "sea-moss",
+    "nombre": "Sea Moss 8 en 1",
+    "categoria": "Energía y vitalidad",
+    "presentacion": "60 cápsulas",
+    "porcion": "",
+    "frase": "Musgo marino con 92 minerales para tu bienestar.",
+    "resumen": "El musgo marino (musgo irlandés) es un alga roja considerada fuente de 92 minerales. Esta fórmula lo combina con aceite de semilla negra, ashwagandha y jengibre, entre otros.",
+    "beneficios": [
+      "Apoya la salud intestinal.",
+      "Contribuye a la función de la tiroides.",
+      "Ayuda a fortalecer las defensas.",
+      "Favorece una piel saludable."
+    ],
+    "ingredientes": [
+      {
+        "nombre": "Musgo marino (sea moss)",
+        "cantidad": "",
+        "detalle": "Alga roja rica en minerales, usada para apoyar la digestión, la tiroides y las defensas."
+      },
+      {
+        "nombre": "Aceite de semilla negra",
+        "cantidad": "",
+        "detalle": "Usado tradicionalmente por su acción antioxidante."
+      },
+      {
+        "nombre": "Ashwagandha",
+        "cantidad": "",
+        "detalle": "Planta que ayuda al cuerpo a adaptarse al estrés."
+      },
+      {
+        "nombre": "Jengibre",
+        "cantidad": "",
+        "detalle": "Raíz que apoya la digestión."
+      }
+    ],
+    "nota": "",
+    "precaucion": "Si tienes problemas de tiroides, consulta a tu médico antes de usarlo."
   }
 ]

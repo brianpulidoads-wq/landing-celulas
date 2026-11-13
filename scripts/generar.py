@@ -176,7 +176,34 @@ def pagina_producto(p, todos):
         if p.get("precaucion") else ""
     )
 
-    otros = "".join(tarjeta(o) for o in todos if o["slug"] != p["slug"])
+    # "Otros productos": primero los de la misma categoría, máximo 4.
+    resto = [o for o in todos if o["slug"] != p["slug"]]
+    resto.sort(key=lambda o: o["categoria"] != p["categoria"])
+    otros = "".join(tarjeta(o) for o in resto[:4])
+
+    # Ingredientes: la sección solo aparece si el producto tiene ingredientes.
+    if p["ingredientes"]:
+        boton_ing = '<a href="#ingredientes" class="text-center bg-white text-neutral-base border border-neutral-border px-8 py-4 rounded-xl font-semibold text-sm hover:bg-neutral-light transition">Ver ingredientes</a>'
+        aviso_cant = (f'<p class="text-sm text-neutral-muted mt-3">Cantidades por porción de {e(p["porcion"])}, según la etiqueta.</p>'
+                      if p.get("porcion") and any(i.get("cantidad") for i in p["ingredientes"]) else "")
+        seccion_ing = f"""
+    <section id="ingredientes" class="max-w-4xl mx-auto px-4 sm:px-6 py-20 scroll-mt-24">
+        <div class="text-center mb-10">
+            <span class="text-clinical-700 text-xs font-bold uppercase tracking-wider">Fórmula</span>
+            <h2 class="text-3xl font-bold tracking-tight text-neutral-base mt-2">Ingredientes y su función</h2>
+            {aviso_cant}
+        </div>
+        <div class="border border-neutral-border rounded-2xl bg-white shadow-sm divide-y divide-neutral-border">{filas}
+        </div>
+        {nota}{precaucion}
+    </section>
+"""
+    else:
+        boton_ing = ""
+        seccion_ing = (f"""
+    <section class="max-w-4xl mx-auto px-4 sm:px-6 pb-20">{nota}{precaucion}
+    </section>
+""" if (nota or precaucion) else "")
 
     cuerpo = f"""
     <main>
@@ -201,7 +228,7 @@ def pagina_producto(p, todos):
                 <div class="flex flex-wrap gap-2 mb-8">{chips_html}</div>
                 <div class="flex flex-col sm:flex-row gap-3">
                     <a href="{wa_pedido}" target="_blank" rel="noopener" class="text-center bg-clinical-900 text-white px-8 py-4 rounded-xl font-semibold text-sm hover:bg-clinical-800 transition shadow-sm">Pedir por WhatsApp</a>
-                    <a href="#ingredientes" class="text-center bg-white text-neutral-base border border-neutral-border px-8 py-4 rounded-xl font-semibold text-sm hover:bg-neutral-light transition">Ver ingredientes</a>
+                    {boton_ing}
                 </div>
             </div>
         </div>
@@ -216,17 +243,7 @@ def pagina_producto(p, todos):
         </div>
     </section>
 
-    <section id="ingredientes" class="max-w-4xl mx-auto px-4 sm:px-6 py-20 scroll-mt-24">
-        <div class="text-center mb-10">
-            <span class="text-clinical-700 text-xs font-bold uppercase tracking-wider">Fórmula</span>
-            <h2 class="text-3xl font-bold tracking-tight text-neutral-base mt-2">Ingredientes y su función</h2>
-            {f'<p class="text-sm text-neutral-muted mt-3">Cantidades por porción de {e(p["porcion"])}, según la etiqueta.</p>' if p.get('porcion') and any(i.get('cantidad') for i in p['ingredientes']) else ''}
-        </div>
-        <div class="border border-neutral-border rounded-2xl bg-white shadow-sm divide-y divide-neutral-border">{filas}
-        </div>
-        {nota}{precaucion}
-    </section>
-
+{seccion_ing}
     <section class="max-w-5xl mx-auto px-4 sm:px-6 pb-20">
         <div class="bg-clinical-900 rounded-3xl p-8 sm:p-12 text-center text-white shadow-xl shadow-clinical-900/10">
             <h2 class="text-2xl sm:text-3xl font-bold mb-4">¿Es {e(p['nombre'])} para ti?</h2>
@@ -318,14 +335,15 @@ def pagina_catalogo(todos):
 
 
 def seccion_index(todos):
-    tarjetas = "".join(tarjeta(p) for p in todos)
+    # En el inicio solo los 6 primeros; el resto está en productos.html.
+    tarjetas = "".join(tarjeta(p) for p in todos[:6])
     return f"""<!-- PRODUCTOS:INICIO (generado por scripts/generar.py, no editar a mano) -->
     <section id="productos" class="max-w-6xl mx-auto px-6 py-24 scroll-mt-24">
         <div class="flex flex-col sm:flex-row sm:items-end justify-between gap-6 mb-12">
             <div class="max-w-2xl">
                 <span class="text-clinical-700 text-xs font-bold uppercase tracking-wider">Nuestra línea</span>
                 <h2 class="text-3xl font-bold tracking-tight text-neutral-base mt-2 mb-3">Más productos para tu bienestar</h2>
-                <p class="text-neutral-muted text-base leading-relaxed">Además de AFA, contamos con fórmulas para circulación, articulaciones, energía y salud masculina.</p>
+                <p class="text-neutral-muted text-base leading-relaxed">Además de AFA, contamos con fórmulas para circulación, articulaciones, próstata, digestión, defensas, energía y salud masculina y femenina.</p>
             </div>
             <a href="productos.html" class="shrink-0 text-sm font-semibold text-clinical-900 border border-neutral-border rounded-full px-5 py-2.5 hover:bg-neutral-light transition">Ver catálogo completo →</a>
         </div>
