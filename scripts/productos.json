@@ -806,5 +806,84 @@
     ],
     "nota": "",
     "precaucion": "Si tienes problemas de tiroides, consulta a tu médico antes de usarlo."
+  },
+  {
+    "slug": "neuraden",
+    "nombre": "Neuraden",
+    "categoria": "Salud de los nervios",
+    "presentacion": "90 cápsulas",
+    "porcion": "3 cápsulas",
+    "frase": "Apoyo para los nervios de manos y pies.",
+    "resumen": "Fórmula con 1,200 mg de ácido alfa-lipoico, benfotiamina, vitaminas del complejo B, cúrcuma y ginkgo biloba. Sus ingredientes apoyan la protección antioxidante, la energía de las células nerviosas y el mantenimiento de la mielina, la capa que recubre los nervios.",
+    "beneficios": [
+      "Las vitaminas B1, B6 y B12 apoyan la comunicación y el mantenimiento de los nervios.",
+      "El ácido alfa-lipoico, la vitamina C y los extractos vegetales ayudan a proteger las células del daño oxidativo.",
+      "Las vitaminas B2, B3 y B5 ayudan a transformar los nutrientes en energía.",
+      "El folato y las vitaminas C y D apoyan el funcionamiento normal de músculos y tejidos."
+    ],
+    "ingredientes": [
+      {
+        "nombre": "Ácido alfa-lipoico",
+        "cantidad": "1,200 mg",
+        "detalle": "Participa en la defensa antioxidante de las células. Se estudia por su relación con la salud de los nervios periféricos y el metabolismo de la glucosa."
+      },
+      {
+        "nombre": "Benfotiamina",
+        "cantidad": "300 mg",
+        "detalle": "Derivado de la vitamina B1, que las células nerviosas necesitan para obtener energía."
+      },
+      {
+        "nombre": "Vitamina B12 (metilcobalamina)",
+        "cantidad": "1,000 mcg",
+        "detalle": "Esencial para formar y mantener la mielina, la cubierta protectora de los nervios."
+      },
+      {
+        "nombre": "Vitamina B6",
+        "cantidad": "1.7 mg",
+        "detalle": "Interviene en la producción de neurotransmisores, que permiten la comunicación entre neuronas."
+      },
+      {
+        "nombre": "Vitamina B2 (riboflavina)",
+        "cantidad": "1.3 mg",
+        "detalle": "Ayuda a transformar los alimentos en energía y participa en mecanismos antioxidantes."
+      },
+      {
+        "nombre": "Niacina (vitamina B3)",
+        "cantidad": "16 mg NE",
+        "detalle": "Necesaria para el metabolismo energético y la función de las células."
+      },
+      {
+        "nombre": "Folato",
+        "cantidad": "400 mcg DFE",
+        "detalle": "Trabaja junto con la vitamina B12 en procesos importantes para la función neurológica."
+      },
+      {
+        "nombre": "Ácido pantoténico (vitamina B5)",
+        "cantidad": "5 mg",
+        "detalle": "Ayuda a obtener energía de carbohidratos, grasas y proteínas."
+      },
+      {
+        "nombre": "Vitamina C",
+        "cantidad": "90 mg",
+        "detalle": "Antioxidante que ayuda a proteger las células y a formar colágeno."
+      },
+      {
+        "nombre": "Vitamina D3",
+        "cantidad": "15 mcg",
+        "detalle": "Contribuye a la función muscular, a los huesos y a las defensas."
+      },
+      {
+        "nombre": "Extracto de cúrcuma (95 % curcuminoides)",
+        "cantidad": "250 mg",
+        "detalle": "Aporta curcuminoides, compuestos vegetales con propiedades antioxidantes."
+      },
+      {
+        "nombre": "Ginkgo biloba",
+        "cantidad": "120 mg",
+        "detalle": "Aporta flavonoides estudiados por su relación con la microcirculación."
+      }
+    ],
+    "nota": "Neuraden apoya la nutrición de los nervios. Si tienes hormigueo, ardor o entumecimiento, consulta a tu médico para conocer la causa.",
+    "precaucion": "Si estás embarazada, en lactancia, tomas medicamentos (en especial anticoagulantes o para la diabetes) o tienes alguna condición médica, consulta a tu médico antes de usarlo."
   }
 ]
