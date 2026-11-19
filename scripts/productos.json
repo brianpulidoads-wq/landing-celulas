@@ -885,5 +885,70 @@
     ],
     "nota": "Neuraden apoya la nutrición de los nervios. Si tienes hormigueo, ardor o entumecimiento, consulta a tu médico para conocer la causa.",
     "precaucion": "Si estás embarazada, en lactancia, tomas medicamentos (en especial anticoagulantes o para la diabetes) o tienes alguna condición médica, consulta a tu médico antes de usarlo."
+  },
+  {
+    "slug": "femora",
+    "nombre": "Femora",
+    "categoria": "Salud femenina",
+    "presentacion": "90 cápsulas",
+    "porcion": "3 cápsulas",
+    "frase": "Bienestar femenino en la perimenopausia y la menopausia.",
+    "resumen": "Fórmula con maca, ashwagandha KSM-66®, shatavari, azafrán, ácido hialurónico, vitamina D3 y minerales. Pensada para acompañar a la mujer en los cambios de esta etapa: energía, ánimo, descanso, huesos, piel y bienestar íntimo.",
+    "beneficios": [
+      "Apoya la vitalidad, la energía y el deseo sexual.",
+      "Ayuda a manejar el estrés y a descansar mejor.",
+      "Contribuye al equilibrio emocional cuando hay irritabilidad o decaimiento.",
+      "La vitamina D3, el magnesio y el boro apoyan la salud de huesos y músculos.",
+      "El ácido hialurónico y el zinc ayudan a cuidar la hidratación de la piel, el cabello y las uñas."
+    ],
+    "ingredientes": [
+      {
+        "nombre": "Maca",
+        "cantidad": "1,000 mg",
+        "detalle": "Planta andina usada tradicionalmente para la vitalidad y el deseo sexual. Se ha estudiado por sus posibles efectos sobre la función sexual y el ánimo en algunas mujeres."
+      },
+      {
+        "nombre": "Ashwagandha KSM-66®",
+        "cantidad": "300 mg",
+        "detalle": "Extracto estudiado por su posible ayuda en el manejo del estrés, la relajación y la calidad del sueño."
+      },
+      {
+        "nombre": "Shatavari",
+        "cantidad": "300 mg",
+        "detalle": "Planta de uso tradicional en el bienestar femenino durante los cambios hormonales."
+      },
+      {
+        "nombre": "Azafrán",
+        "cantidad": "30 mg",
+        "detalle": "Extracto estudiado por sus posibles beneficios sobre el ánimo y el bienestar emocional."
+      },
+      {
+        "nombre": "Ácido hialurónico",
+        "cantidad": "100 mg",
+        "detalle": "Ayuda a retener agua en los tejidos; se estudia por su efecto sobre la hidratación y la elasticidad de la piel."
+      },
+      {
+        "nombre": "Vitamina D3",
+        "cantidad": "50 mcg (2,000 UI)",
+        "detalle": "Ayuda a absorber el calcio y a mantener huesos y músculos sanos, algo clave durante y después de la menopausia."
+      },
+      {
+        "nombre": "Magnesio",
+        "cantidad": "150 mg",
+        "detalle": "Participa en la función muscular y nerviosa, en la energía y en el mantenimiento de los huesos."
+      },
+      {
+        "nombre": "Zinc",
+        "cantidad": "15 mg",
+        "detalle": "Contribuye a las defensas y al cuidado de la piel, el cabello y las uñas."
+      },
+      {
+        "nombre": "Boro",
+        "cantidad": "3 mg",
+        "detalle": "Oligoelemento estudiado por su papel en el metabolismo de los minerales y la salud de los huesos."
+      }
+    ],
+    "nota": "Los efectos sobre síntomas como los sofocos o la sequedad vaginal pueden variar según cada mujer.",
+    "precaucion": "No se recomienda durante el embarazo o la lactancia. Si tomas medicamentos (en especial para la tiroides, la ansiedad o el sueño) o terapia hormonal, consulta a tu médico antes de usarlo."
   }
 ]
